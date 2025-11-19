@@ -2,42 +2,48 @@ import { Link } from "react-router-dom";
 import { Button } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";
 import { Building2, TrendingUp, Users, ArrowRight } from "lucide-react";
+import alatLogo from "@/assets/company-logos/alat.png";
+import kapitalBankLogo from "@/assets/company-logos/kapital-bank.png";
+import pashaLifeLogo from "@/assets/company-logos/pasha-life.png";
+import korponLogo from "@/assets/company-logos/korpon.png";
+import enhencerLogo from "@/assets/company-logos/enhencer.png";
+import inkYouLogo from "@/assets/company-logos/ink-you.png";
 
 const EarlyAdopters = () => {
   const adopters = [
     {
-      name: "Alat Free Economic Zone",
-      logo: "🏢",
-      industry: "Economic Development",
-      description: "Leading free economic zone in Azerbaijan, driving innovation and growth.",
+      name: "Alat",
+      logo: alatLogo,
+      industry: "Smart Building Technology",
+      description: "Saudi Arabian smart-building and advanced technology manufacturer leading large-scale infrastructure solutions.",
     },
     {
       name: "Kapital Bank",
-      logo: "🏦",
+      logo: kapitalBankLogo,
       industry: "Financial Services",
       description: "One of Azerbaijan's largest and most innovative banks.",
     },
     {
       name: "PASHA Life Insurance",
-      logo: "🛡️",
+      logo: pashaLifeLogo,
       industry: "Insurance",
       description: "Premier life insurance provider with modern customer-centric approach.",
     },
     {
       name: "KorpON",
-      logo: "💼",
+      logo: korponLogo,
       industry: "Corporate Solutions",
       description: "Corporate training and development solutions provider.",
     },
     {
       name: "Enhencer",
-      logo: "📊",
+      logo: enhencerLogo,
       industry: "Marketing Technology",
       description: "AI-powered marketing and analytics platform.",
     },
     {
       name: "Ink&You",
-      logo: "✍️",
+      logo: inkYouLogo,
       industry: "Creative Services",
       description: "Design and branding agency creating memorable brand experiences.",
     },
@@ -81,9 +87,11 @@ const EarlyAdopters = () => {
           {adopters.map((adopter) => (
             <Card
               key={adopter.name}
-              className="p-8 hover:shadow-lg transition-all duration-300 hover:border-primary"
+              className="p-8 hover:shadow-lg transition-all duration-300 hover:border-primary bg-muted/30"
             >
-              <div className="text-5xl mb-4">{adopter.logo}</div>
+              <div className="mb-4 flex items-center justify-center h-20">
+                <img src={adopter.logo} alt={adopter.name} className="max-h-16 max-w-full object-contain" />
+              </div>
               <h3 className="text-xl font-heading font-semibold mb-2">{adopter.name}</h3>
               <div className="inline-block px-3 py-1 rounded-full bg-primary/10 text-primary text-xs font-medium mb-3">
                 {adopter.industry}
