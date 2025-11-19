@@ -2,6 +2,7 @@ import { Link, useLocation } from "react-router-dom";
 import { Button } from "@/components/ui/button";
 import { Menu, X } from "lucide-react";
 import { useState } from "react";
+import datamizLogo from "@/assets/logo-datamiz.png";
 
 const Header = () => {
   const location = useLocation();
@@ -14,12 +15,8 @@ const Header = () => {
   return (
     <header className="sticky top-0 z-50 w-full border-b border-border bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
       <div className="container flex h-16 items-center justify-between">
-        <Link to="/" className="flex items-center space-x-2">
-          <div className="flex items-center">
-            <span className="text-2xl font-heading font-bold text-foreground">
-              Data<span className="text-primary">mız</span>
-            </span>
-          </div>
+        <Link to="/" className="flex items-center">
+          <img src={datamizLogo} alt="Datamız" className="h-8 md:h-10" />
         </Link>
 
         {/* Desktop Navigation */}

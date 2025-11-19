@@ -3,6 +3,12 @@ import { Button } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";
 import { ArrowRight, Users, Building2, TrendingUp, Shield, Clock, Target } from "lucide-react";
 import heroBackground from "@/assets/hero-background.jpg";
+import alatLogo from "@/assets/company-logos/alat.png";
+import kapitalBankLogo from "@/assets/company-logos/kapital-bank.png";
+import pashaLifeLogo from "@/assets/company-logos/pasha-life.png";
+import korponLogo from "@/assets/company-logos/korpon.png";
+import enhencerLogo from "@/assets/company-logos/enhencer.png";
+import inkYouLogo from "@/assets/company-logos/ink-you.png";
 
 const Home = () => {
   const stats = [
@@ -36,12 +42,12 @@ const Home = () => {
   ];
 
   const earlyAdopters = [
-    { name: "Alat Free Economic Zone", logo: "🏢" },
-    { name: "Kapital Bank", logo: "🏦" },
-    { name: "PASHA Life Insurance", logo: "🛡️" },
-    { name: "KorpON", logo: "💼" },
-    { name: "Enhencer", logo: "📊" },
-    { name: "Ink&You", logo: "✍️" },
+    { name: "Alat", logo: alatLogo },
+    { name: "Kapital Bank", logo: kapitalBankLogo },
+    { name: "PASHA Life Insurance", logo: pashaLifeLogo },
+    { name: "KorpON", logo: korponLogo },
+    { name: "Enhencer", logo: enhencerLogo },
+    { name: "Ink&You", logo: inkYouLogo },
   ];
 
   return (
@@ -223,9 +229,11 @@ const Home = () => {
             {earlyAdopters.map((adopter) => (
               <Card
                 key={adopter.name}
-                className="p-6 flex flex-col items-center justify-center text-center hover:shadow-lg transition-shadow duration-300 min-h-[140px]"
+                className="p-6 flex flex-col items-center justify-center text-center hover:shadow-lg transition-shadow duration-300 min-h-[140px] bg-muted/30"
               >
-                <div className="text-4xl mb-3">{adopter.logo}</div>
+                <div className="h-16 mb-3 flex items-center justify-center">
+                  <img src={adopter.logo} alt={adopter.name} className="max-h-12 max-w-full object-contain" />
+                </div>
                 <p className="text-sm font-medium text-foreground">{adopter.name}</p>
               </Card>
             ))}
@@ -256,7 +264,7 @@ const Home = () => {
               <Button size="lg" variant="outline" asChild className="bg-white text-primary hover:bg-white/90">
                 <Link to="/waitlist">Join Waitlist</Link>
               </Button>
-              <Button size="lg" variant="outline" asChild className="border-white text-white hover:bg-white/10">
+              <Button size="lg" variant="outline" asChild className="bg-white border-primary text-primary hover:bg-primary/10">
                 <Link to="/contact">Contact Us</Link>
               </Button>
             </div>
