@@ -1,0 +1,245 @@
+import { Link } from "react-router-dom";
+import { Button } from "@/components/ui/button";
+import { Card } from "@/components/ui/card";
+import { DollarSign, Clock, Shield, Users, CheckCircle, TrendingUp, ArrowRight } from "lucide-react";
+
+const ForContributors = () => {
+  const benefits = [
+    {
+      icon: DollarSign,
+      title: "Earn Extra Income",
+      description: "Get paid for sharing your opinions. Earn competitive rates for surveys and interviews that match your profile.",
+    },
+    {
+      icon: Clock,
+      title: "Flexible Schedule",
+      description: "Work whenever you want, wherever you are. Choose opportunities that fit your availability.",
+    },
+    {
+      icon: Shield,
+      title: "Secure & Trusted",
+      description: "Your data is protected and payments are guaranteed. We ensure a safe and transparent platform.",
+    },
+    {
+      icon: Users,
+      title: "Shape Products & Services",
+      description: "Your insights help companies build better products and services for Azerbaijan.",
+    },
+  ];
+
+  const howToEarn = [
+    {
+      title: "Complete Your Profile",
+      description: "Add your demographics, education, occupation, and interests. The more complete your profile, the more opportunities you'll see.",
+      amount: "One-time setup",
+    },
+    {
+      title: "Short Surveys",
+      description: "Quick surveys taking 5-15 minutes to complete on various topics.",
+      amount: "5-20 AZN",
+    },
+    {
+      title: "Long Surveys",
+      description: "Detailed questionnaires requiring 20-45 minutes of your time.",
+      amount: "20-50 AZN",
+    },
+    {
+      title: "Phone Interviews",
+      description: "One-on-one phone conversations with researchers, typically 30-60 minutes.",
+      amount: "50-100 AZN",
+    },
+    {
+      title: "Focus Groups",
+      description: "Group discussions with other contributors, usually 1-2 hours.",
+      amount: "80-150 AZN",
+    },
+  ];
+
+  const eligibility = [
+    "18 years or older",
+    "Resident of Azerbaijan",
+    "Valid government-issued ID for verification",
+    "Active mobile number and email",
+    "Bank account or mobile money for payments",
+  ];
+
+  return (
+    <div className="min-h-screen py-20">
+      <div className="container">
+        {/* Header */}
+        <div className="max-w-3xl mx-auto text-center mb-16">
+          <h1 className="text-4xl md:text-5xl font-heading font-bold text-foreground mb-4">
+            Earn Money Sharing Your Opinions
+          </h1>
+          <p className="text-xl text-muted-foreground mb-8">
+            Join thousands of contributors in Azerbaijan who earn extra income by participating in surveys and interviews
+          </p>
+          <Button size="lg" asChild>
+            <Link to="/waitlist">
+              Join Waitlist
+              <ArrowRight className="ml-2 h-5 w-5" />
+            </Link>
+          </Button>
+        </div>
+
+        {/* Benefits */}
+        <section className="mb-20">
+          <h2 className="text-3xl font-heading font-bold text-center text-foreground mb-12">
+            Why Become a Contributor?
+          </h2>
+          <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
+            {benefits.map((benefit) => (
+              <Card key={benefit.title} className="p-6 hover:shadow-lg transition-shadow duration-300">
+                <div className="flex items-center justify-center w-12 h-12 rounded-lg bg-primary/10 mb-4">
+                  <benefit.icon className="h-6 w-6 text-primary" />
+                </div>
+                <h3 className="text-lg font-semibold mb-2">{benefit.title}</h3>
+                <p className="text-sm text-muted-foreground">{benefit.description}</p>
+              </Card>
+            ))}
+          </div>
+        </section>
+
+        {/* How to Earn */}
+        <section className="mb-20">
+          <h2 className="text-3xl font-heading font-bold text-center text-foreground mb-4">
+            How You Can Earn
+          </h2>
+          <p className="text-center text-muted-foreground mb-12 max-w-2xl mx-auto">
+            Different types of opportunities with varying time commitments and compensation
+          </p>
+          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6 max-w-5xl mx-auto">
+            {howToEarn.map((opportunity) => (
+              <Card key={opportunity.title} className="p-6 hover:shadow-lg transition-shadow duration-300 border-2">
+                <div className="mb-4">
+                  <span className="inline-block px-3 py-1 rounded-full bg-primary/10 text-primary text-sm font-semibold">
+                    {opportunity.amount}
+                  </span>
+                </div>
+                <h3 className="text-lg font-semibold mb-2">{opportunity.title}</h3>
+                <p className="text-sm text-muted-foreground">{opportunity.description}</p>
+              </Card>
+            ))}
+          </div>
+        </section>
+
+        {/* Eligibility */}
+        <section className="mb-20">
+          <div className="max-w-3xl mx-auto">
+            <Card className="p-8 md:p-12 bg-muted/30">
+              <h2 className="text-3xl font-heading font-bold text-foreground mb-4 text-center">
+                Who Can Join?
+              </h2>
+              <p className="text-center text-muted-foreground mb-8">
+                Basic requirements to become a contributor on Datamız
+              </p>
+              <div className="space-y-4">
+                {eligibility.map((requirement) => (
+                  <div key={requirement} className="flex items-start space-x-3">
+                    <div className="flex-shrink-0 w-6 h-6 rounded-full bg-primary/20 flex items-center justify-center mt-0.5">
+                      <CheckCircle className="h-4 w-4 text-primary" />
+                    </div>
+                    <p className="text-foreground">{requirement}</p>
+                  </div>
+                ))}
+              </div>
+            </Card>
+          </div>
+        </section>
+
+        {/* How It Works */}
+        <section className="mb-20 bg-muted/30 rounded-3xl p-8 md:p-12">
+          <h2 className="text-3xl font-heading font-bold text-center text-foreground mb-12">
+            Getting Started is Easy
+          </h2>
+          <div className="grid md:grid-cols-4 gap-8 max-w-5xl mx-auto">
+            <div className="text-center">
+              <div className="w-16 h-16 rounded-full bg-primary text-white flex items-center justify-center mx-auto mb-4 text-2xl font-bold">
+                1
+              </div>
+              <h3 className="font-semibold mb-2">Sign Up</h3>
+              <p className="text-sm text-muted-foreground">
+                Create your account in minutes
+              </p>
+            </div>
+            <div className="text-center">
+              <div className="w-16 h-16 rounded-full bg-primary text-white flex items-center justify-center mx-auto mb-4 text-2xl font-bold">
+                2
+              </div>
+              <h3 className="font-semibold mb-2">Complete Profile</h3>
+              <p className="text-sm text-muted-foreground">
+                Add your details to get matched
+              </p>
+            </div>
+            <div className="text-center">
+              <div className="w-16 h-16 rounded-full bg-primary text-white flex items-center justify-center mx-auto mb-4 text-2xl font-bold">
+                3
+              </div>
+              <h3 className="font-semibold mb-2">Start Earning</h3>
+              <p className="text-sm text-muted-foreground">
+                Apply to surveys and interviews
+              </p>
+            </div>
+            <div className="text-center">
+              <div className="w-16 h-16 rounded-full bg-primary text-white flex items-center justify-center mx-auto mb-4 text-2xl font-bold">
+                4
+              </div>
+              <h3 className="font-semibold mb-2">Get Paid</h3>
+              <p className="text-sm text-muted-foreground">
+                Withdraw your earnings anytime
+              </p>
+            </div>
+          </div>
+        </section>
+
+        {/* FAQ */}
+        <section className="mb-20">
+          <h2 className="text-3xl font-heading font-bold text-center text-foreground mb-12">
+            Common Questions
+          </h2>
+          <div className="grid md:grid-cols-2 gap-6 max-w-5xl mx-auto">
+            <Card className="p-6">
+              <h3 className="font-semibold mb-2">How much can I earn?</h3>
+              <p className="text-sm text-muted-foreground">
+                Earnings vary based on the type and length of surveys. Active contributors can earn 100-500 AZN per month.
+              </p>
+            </Card>
+            <Card className="p-6">
+              <h3 className="font-semibold mb-2">When do I get paid?</h3>
+              <p className="text-sm text-muted-foreground">
+                Payments are processed within 48 hours of completing a survey. You can withdraw once you reach 20 AZN.
+              </p>
+            </Card>
+            <Card className="p-6">
+              <h3 className="font-semibold mb-2">How often are surveys available?</h3>
+              <p className="text-sm text-muted-foreground">
+                It depends on your profile and current demand. Most contributors see new opportunities weekly.
+              </p>
+            </Card>
+            <Card className="p-6">
+              <h3 className="font-semibold mb-2">Is my information safe?</h3>
+              <p className="text-sm text-muted-foreground">
+                Yes! All your personal data is encrypted and we never share your identity with companies without consent.
+              </p>
+            </Card>
+          </div>
+        </section>
+
+        {/* CTA */}
+        <section className="text-center bg-gradient-to-r from-primary to-primary/80 rounded-3xl p-12">
+          <h2 className="text-3xl md:text-4xl font-heading font-bold text-white mb-4">
+            Ready to Start Earning?
+          </h2>
+          <p className="text-xl text-white/90 mb-8 max-w-2xl mx-auto">
+            Join our waitlist now and be among the first to access earning opportunities
+          </p>
+          <Button size="lg" variant="outline" asChild className="bg-white text-primary hover:bg-white/90">
+            <Link to="/waitlist">Join Waitlist Now</Link>
+          </Button>
+        </section>
+      </div>
+    </div>
+  );
+};
+
+export default ForContributors;
