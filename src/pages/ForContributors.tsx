@@ -35,23 +35,37 @@ const ForContributors = () => {
     },
     {
       title: "Short Surveys",
-      description: "Quick surveys taking 5-15 minutes to complete on various topics.",
-      amount: "5-20 AZN",
+      description: "Quick surveys taking 5–15 minutes.",
+      amount: "1–10 AZN per response",
     },
     {
       title: "Long Surveys",
-      description: "Detailed questionnaires requiring 20-45 minutes of your time.",
-      amount: "20-50 AZN",
+      description: "Detailed questionnaires requiring 20–45 minutes.",
+      amount: "10–50 AZN per response",
     },
     {
-      title: "Phone Interviews",
-      description: "One-on-one phone conversations with researchers, typically 30-60 minutes.",
-      amount: "50-100 AZN",
+      title: "Video Interviews",
+      description: "One-to-one or group video conversations with researchers, usually 15 minutes or longer.",
+      amount: "From 10 AZN per 15 minutes",
+    },
+  ];
+
+  const analyticsStats = [
+    {
+      label: "Total Earned",
+      value: "245 AZN",
     },
     {
-      title: "Focus Groups",
-      description: "Group discussions with other contributors, usually 1-2 hours.",
-      amount: "80-150 AZN",
+      label: "Surveys Completed",
+      value: "32",
+    },
+    {
+      label: "Average Rating",
+      value: "4.8 / 5",
+    },
+    {
+      label: "Active Opportunities",
+      value: "5 open",
     },
   ];
 
@@ -222,6 +236,24 @@ const ForContributors = () => {
                 Yes! All your personal data is encrypted and we never share your identity with companies without consent.
               </p>
             </Card>
+          </div>
+        </section>
+
+        {/* Analytics */}
+        <section className="mb-20">
+          <h2 className="text-3xl font-heading font-bold text-center text-foreground mb-4">
+            Your Analytics at a Glance
+          </h2>
+          <p className="text-center text-muted-foreground mb-12 max-w-2xl mx-auto">
+            Track your earnings, performance, and opportunities in real-time
+          </p>
+          <div className="grid md:grid-cols-4 gap-6 max-w-4xl mx-auto">
+            {analyticsStats.map((stat) => (
+              <Card key={stat.label} className="p-6 text-center hover:shadow-lg transition-shadow duration-300">
+                <p className="text-3xl font-bold text-primary mb-2">{stat.value}</p>
+                <p className="text-sm text-muted-foreground">{stat.label}</p>
+              </Card>
+            ))}
           </div>
         </section>
 

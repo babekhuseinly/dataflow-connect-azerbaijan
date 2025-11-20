@@ -16,11 +16,11 @@ const Header = () => {
     <header className="sticky top-0 z-50 w-full border-b border-border bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
       <div className="container flex h-16 items-center justify-between">
         <Link to="/" className="flex items-center">
-          <img src={datamizLogo} alt="Datamız" className="h-8 md:h-10" />
+          <img src={datamizLogo} alt="Datamız" className="h-10 md:h-12 object-contain" />
         </Link>
 
         {/* Desktop Navigation */}
-        <nav className="hidden md:flex items-center space-x-6">
+        <nav className="hidden md:flex items-center space-x-8 flex-1 justify-center">
           <Link
             to="/how-it-works"
             className={`text-sm font-medium transition-colors hover:text-primary ${

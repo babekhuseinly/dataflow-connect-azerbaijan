@@ -244,7 +244,7 @@ const ForCompanies = () => {
             </p>
             <div className="grid md:grid-cols-3 gap-6 mb-8">
               <div>
-                <div className="text-3xl font-bold text-primary mb-2">2-5 AZN</div>
+                <div className="text-3xl font-bold text-primary mb-2">1.5-5 AZN</div>
                 <div className="text-sm text-muted-foreground">per short survey response</div>
               </div>
               <div>
@@ -262,6 +262,34 @@ const ForCompanies = () => {
           </Card>
         </section>
 
+        {/* Analytics */}
+        <section className="mb-20">
+          <h2 className="text-3xl font-heading font-bold text-center text-foreground mb-4">
+            Campaign Analytics
+          </h2>
+          <p className="text-center text-muted-foreground mb-12 max-w-2xl mx-auto">
+            Monitor your research campaigns with comprehensive analytics and insights
+          </p>
+          <div className="grid md:grid-cols-4 gap-6 max-w-4xl mx-auto">
+            <Card className="p-6 text-center hover:shadow-lg transition-shadow duration-300">
+              <p className="text-3xl font-bold text-primary mb-2">1,200 AZN</p>
+              <p className="text-sm text-muted-foreground">Total Spend</p>
+            </Card>
+            <Card className="p-6 text-center hover:shadow-lg transition-shadow duration-300">
+              <p className="text-3xl font-bold text-primary mb-2">8</p>
+              <p className="text-sm text-muted-foreground">Surveys Published</p>
+            </Card>
+            <Card className="p-6 text-center hover:shadow-lg transition-shadow duration-300">
+              <p className="text-3xl font-bold text-primary mb-2">92%</p>
+              <p className="text-sm text-muted-foreground">Completion Rate</p>
+            </Card>
+            <Card className="p-6 text-center hover:shadow-lg transition-shadow duration-300">
+              <p className="text-3xl font-bold text-primary mb-2">24h</p>
+              <p className="text-sm text-muted-foreground">Avg Response Time</p>
+            </Card>
+          </div>
+        </section>
+
         {/* CTA */}
         <section className="text-center bg-gradient-to-r from-primary to-primary/80 rounded-3xl p-12">
           <h2 className="text-3xl md:text-4xl font-heading font-bold text-white mb-4">
@@ -274,8 +302,8 @@ const ForCompanies = () => {
             <Button size="lg" variant="outline" asChild className="bg-white text-primary hover:bg-white/90">
               <Link to="/waitlist">Join Waitlist</Link>
             </Button>
-            <Button size="lg" variant="outline" asChild className="border-white text-white hover:bg-white/10">
-              <Link to="/contact">Contact Sales</Link>
+            <Button size="lg" variant="outline" asChild className="bg-white border-primary text-primary hover:bg-primary/10">
+              <Link to="/contact">Contact Us</Link>
             </Button>
           </div>
         </section>
