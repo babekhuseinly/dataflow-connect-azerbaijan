@@ -50,9 +50,8 @@ const EarlyAdopters = () => {
   ];
 
   const stats = [
-    { value: "6+", label: "Early Adopters" },
-    { value: "5", label: "Industries" },
-    { value: "1000+", label: "Potential Users" },
+    { value: "300+", label: "Contributors" },
+    { value: "10+", label: "Companies" },
   ];
 
   return (
@@ -60,20 +59,13 @@ const EarlyAdopters = () => {
       <div className="container">
         {/* Header */}
         <div className="max-w-3xl mx-auto text-center mb-16">
-          <div className="inline-flex items-center space-x-2 bg-primary/10 px-4 py-2 rounded-full mb-6">
-            <Users className="h-5 w-5 text-primary" />
-            <span className="text-sm font-semibold text-primary">Early Adopters</span>
-          </div>
-          <h1 className="text-4xl md:text-5xl font-heading font-bold text-foreground mb-4">
-             Companies on Our Waitlist
-           </h1>
-           <p className="text-xl text-muted-foreground">
-             Join these forward-thinking companies exploring Datamız.
-           </p>
+          <h1 className="text-4xl md:text-5xl font-heading font-bold text-foreground">
+            Featured Companies
+          </h1>
         </div>
 
         {/* Stats */}
-        <div className="grid grid-cols-3 gap-8 max-w-3xl mx-auto mb-20">
+        <div className="grid grid-cols-2 gap-8 max-w-2xl mx-auto mb-20">
           {stats.map((stat) => (
             <div key={stat.label} className="text-center">
               <div className="text-4xl md:text-5xl font-bold text-primary mb-2">{stat.value}</div>
