@@ -48,7 +48,7 @@ const ForContributors = () => {
   const analyticsStats = [
     {
       label: "Total Earned",
-      value: "245 AZN",
+      value: "USD 145",
     },
     {
       label: "Surveys Completed",
