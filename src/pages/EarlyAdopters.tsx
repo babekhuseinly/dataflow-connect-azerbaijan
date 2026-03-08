@@ -198,10 +198,10 @@ const EarlyAdopters = () => {
             Be part of Azerbaijan's data revolution. Get early access to Datamız.
           </p>
           <Button size="lg" variant="outline" asChild className="bg-white text-primary hover:bg-white/90">
-            <Link to="/waitlist">
-              Join Waitlist
+            <a href="https://dashboard.datamiz.az/signup/" target="_blank" rel="noopener noreferrer">
+              Get Early Access
               <ArrowRight className="ml-2 h-5 w-5" />
-            </Link>
+            </a>
           </Button>
         </section>
       </div>
