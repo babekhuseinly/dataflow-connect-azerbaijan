@@ -132,19 +132,19 @@ const EarlyAdopters = () => {
         {/* Testimonial Section */}
         <section className="mb-20">
           <div className="max-w-3xl mx-auto">
-            <Card className="p-8 md:p-12 border-2 border-primary/20">
+            <Card className="p-8 md:p-12 bg-[hsl(220,40%,13%)] border border-primary/20 rounded-2xl">
               <div className="flex items-center space-x-4 mb-6">
                 <div className="text-4xl">💬</div>
                 <div>
-                  <div className="font-semibold text-foreground">Early Adopter Feedback</div>
-                  <div className="text-sm text-muted-foreground">Beta Program Participant</div>
+                  <div className="font-semibold text-white">Early Adopter Feedback</div>
+                  <div className="text-sm text-white/60">Beta Program Participant</div>
                 </div>
               </div>
-              <p className="text-lg text-foreground/90 italic mb-6">
+              <p className="text-lg text-white/90 italic mb-6">
                 "Datamız is exactly what Azerbaijan's market research landscape needs. The ability to target specific demographics with verified contributors saves us time and gives us confidence in our data quality."
               </p>
               <div className="flex items-center justify-between">
-                <div className="text-sm text-muted-foreground">— Leading Financial Institution</div>
+                <div className="text-sm text-white/60">— Local Startup</div>
                 <div className="flex space-x-1">
                   {[...Array(5)].map((_, i) => (
                     <span key={i} className="text-primary text-xl">★</span>
