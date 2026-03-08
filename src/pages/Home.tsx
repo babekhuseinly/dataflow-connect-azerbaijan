@@ -239,7 +239,7 @@ const Home = () => {
         <div className="container">
           <div className="max-w-3xl mx-auto text-center space-y-6">
             <h2 className="text-3xl md:text-4xl font-heading font-bold text-white">
-              Join Datamız today and be part of a new data economy.
+              Join Us Today to Be Part of a New Data Economy
             </h2>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Button size="lg" asChild className="bg-white text-primary border border-white hover:bg-white/90">
