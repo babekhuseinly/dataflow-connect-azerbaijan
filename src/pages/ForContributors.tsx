@@ -245,7 +245,7 @@ const ForContributors = () => {
         </section>
 
         {/* CTA */}
-        <section className="text-center bg-gradient-to-r from-primary to-primary/80 rounded-3xl p-12">
+        <section className="text-center bg-gradient-to-r from-primary to-primary/80 rounded-3xl p-8 md:p-12 mx-4 md:mx-0">
           <h2 className="text-3xl md:text-4xl font-heading font-bold text-white mb-4">
             Ready to Start Earning?
           </h2>
