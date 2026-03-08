@@ -246,11 +246,10 @@ const ForCompanies = () => {
                 <div className="text-sm text-muted-foreground">per 15-minute interview</div>
               </div>
             </div>
-            <p className="text-sm text-muted-foreground mb-2">
-              Price depends on survey length, complexity, and targeting criteria.
-            </p>
             <p className="text-sm text-muted-foreground">
-              Custom pricing available for large-scale projects and ongoing research partnerships
+              Price depends on survey length, complexity, and targeting criteria.
+              <br />
+              Custom pricing available for large-scale projects and ongoing research partnerships.
             </p>
           </Card>
         </section>
