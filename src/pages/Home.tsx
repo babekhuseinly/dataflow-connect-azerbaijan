@@ -206,7 +206,7 @@ const Home = () => {
               Trusted by Leading Organizations
             </h2>
             <p className="text-lg text-muted-foreground">
-              Join these forward-thinking companies already on our waitlist
+              Join these forward-thinking companies already on our waitlist.
             </p>
           </div>
 
