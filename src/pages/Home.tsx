@@ -56,7 +56,7 @@ const Home = () => {
       >
         <div className="container relative z-10">
           <div className="max-w-3xl mx-auto text-center space-y-8">
-            <h1 className="text-4xl md:text-6xl font-heading font-bold text-white leading-tight">
+            <h1 className="text-4xl md:text-6xl font-heading font-bold text-white leading-snug">
               Find the Right People for Your Research
             </h1>
             <p className="text-xl md:text-2xl text-white/90">
@@ -90,7 +90,7 @@ const Home = () => {
               A Two-Sided Data Marketplace
             </h2>
             <p className="text-lg text-muted-foreground">
-              Datamız connects those who provide data with those who need it, creating value for everyone.
+              Datamız connects those who provide data with those who need it,<br />creating value for everyone.
             </p>
           </div>
 
