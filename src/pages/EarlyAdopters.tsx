@@ -60,16 +60,9 @@ const EarlyAdopters = () => {
       <div className="container">
         {/* Header */}
         <div className="max-w-3xl mx-auto text-center mb-16">
-          <div className="inline-flex items-center space-x-2 bg-primary/10 px-4 py-2 rounded-full mb-6">
-            <Users className="h-5 w-5 text-primary" />
-            <span className="text-sm font-semibold text-primary">Early Adopters</span>
-          </div>
-          <h1 className="text-4xl md:text-5xl font-heading font-bold text-foreground mb-4">
-             Companies on Our Waitlist
-           </h1>
-           <p className="text-xl text-muted-foreground">
-             Join these forward-thinking companies exploring Datamız.
-           </p>
+          <h1 className="text-4xl md:text-5xl font-heading font-bold text-foreground">
+            Featured Companies
+          </h1>
         </div>
 
         {/* Stats */}
