@@ -1,4 +1,4 @@
-import { Mail, MapPin, Phone } from "lucide-react";
+import { Mail, MapPin, Phone, Instagram } from "lucide-react";
 import { Card } from "@/components/ui/card";
 
 const Contact = () => {
