@@ -106,10 +106,10 @@ const ForCompanies = () => {
         {/* Header */}
         <div className="max-w-3xl mx-auto text-center mb-16">
           <h1 className="text-4xl md:text-5xl font-heading font-bold text-foreground mb-4">
-            Access High-Quality Data from Verified Contributors
+            Access Verified Data Samples
           </h1>
           <p className="text-xl text-muted-foreground mb-8">
-            Get targeted insights from real people across Azerbaijan to make better business decisions
+            Collect structured responses from verified participants in your target market.
           </p>
         </div>
 
