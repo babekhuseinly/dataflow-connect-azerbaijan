@@ -174,29 +174,6 @@ const HowItWorks = () => {
           </div>
         </section>
 
-        {/* CTA */}
-        <section className="mt-20 text-center">
-          <h2 className="text-3xl font-heading font-bold text-foreground mb-4">
-            Ready to Join Datamız?
-          </h2>
-          <p className="text-lg text-muted-foreground mb-8">
-            Whether you're looking to earn or gather insights, we're here for you
-          </p>
-          <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <Button size="lg" asChild>
-              <Link to="/for-contributors">
-                For Contributors
-                <ArrowRight className="ml-2 h-5 w-5" />
-              </Link>
-            </Button>
-            <Button size="lg" variant="outline" asChild>
-              <Link to="/for-companies">
-                For Companies
-                <ArrowRight className="ml-2 h-5 w-5" />
-              </Link>
-            </Button>
-          </div>
-        </section>
       </div>
     </div>
   );
