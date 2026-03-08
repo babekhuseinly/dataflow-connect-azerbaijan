@@ -243,7 +243,7 @@ const Home = () => {
               Ready to Get Started?
             </h2>
             <p className="text-xl text-white/90">
-              Join Datamız today and be part of Azerbaijan's data revolution.
+              Join Datamız today and be part of a new data economy.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Button size="lg" asChild className="bg-white text-primary border border-white hover:bg-white/90">

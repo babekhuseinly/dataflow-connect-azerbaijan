@@ -37,11 +37,18 @@ const Header = () => {
     <header className="sticky top-0 z-50 w-full border-b border-border bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
       <div className="container flex h-16 items-center justify-between">
         <Link to="/" className="flex items-center">
-          <img
-            src={isDark ? logoDark : logoLight}
-            alt="Datamız"
-            className="h-10 md:h-12 object-contain"
-          />
+          <div className="relative h-10 md:h-12">
+            <img
+              src={logoLight}
+              alt="Datamız"
+              className={`h-10 md:h-12 object-contain absolute top-0 left-0 transition-opacity duration-300 ${isDark ? 'opacity-0' : 'opacity-100'}`}
+            />
+            <img
+              src={logoDark}
+              alt="Datamız"
+              className={`h-10 md:h-12 object-contain transition-opacity duration-300 ${isDark ? 'opacity-100' : 'opacity-0'}`}
+            />
+          </div>
         </Link>
 
         {/* Desktop Navigation */}
