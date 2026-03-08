@@ -236,18 +236,15 @@ const ForCompanies = () => {
             <p className="text-muted-foreground mb-8">
               Pay only for completed responses. No subscription fees or hidden costs.
             </p>
-            <div className="grid md:grid-cols-3 gap-6 mb-8">
+            <div className="grid md:grid-cols-2 gap-6 mb-8">
               <div>
-                <div className="text-3xl font-bold text-primary mb-2">1.5-5 AZN</div>
-                <div className="text-sm text-muted-foreground">per short survey response</div>
+                <div className="text-3xl font-bold text-primary mb-2">$1–$8</div>
+                <div className="text-sm text-muted-foreground">per survey response</div>
+                <p className="text-xs text-muted-foreground mt-1">Price depends on survey length, complexity, and targeting criteria</p>
               </div>
               <div>
-                <div className="text-3xl font-bold text-primary mb-2">10-25 AZN</div>
-                <div className="text-sm text-muted-foreground">per detailed survey response</div>
-              </div>
-              <div>
-                <div className="text-3xl font-bold text-primary mb-2">40-80 AZN</div>
-                <div className="text-sm text-muted-foreground">per interview participant</div>
+                <div className="text-3xl font-bold text-primary mb-2">From $7</div>
+                <div className="text-sm text-muted-foreground">per 15-minute interview</div>
               </div>
             </div>
             <p className="text-sm text-muted-foreground">
