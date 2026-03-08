@@ -37,7 +37,7 @@ const Home = () => {
   const earlyAdopters = [
     { name: "Alat", logo: alatLogo },
     { name: "Kapital Bank", logo: kapitalBankLogo },
-    { name: "PASHA Life Insurance", logo: pashaLifeLogo },
+    { name: "PASHA Life", logo: pashaLifeLogo },
     { name: "KorpON", logo: korponLogo },
     { name: "Enhencer", logo: enhencerLogo },
     { name: "Ink&You", logo: inkYouLogo },
