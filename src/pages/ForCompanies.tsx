@@ -84,7 +84,7 @@ const ForCompanies = () => {
     },
     {
       title: "Brand Perception",
-      description: "Measure brand awareness, sentiment, and positioning against competitors in the Azerbaijani market.",
+      description: "Measure brand awareness, sentiment, and positioning against competitors in the emerging markets.",
     },
     {
       title: "Product Testing",
