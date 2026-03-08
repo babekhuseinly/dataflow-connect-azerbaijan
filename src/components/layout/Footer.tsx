@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 import { Mail, MapPin, Phone } from "lucide-react";
-import datamizLogo from "@/assets/logo-datamiz.png";
+import datamizLogo from "@/assets/logo-dark.png";
 
 const Footer = () => {
   return (
