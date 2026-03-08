@@ -23,7 +23,7 @@ const ForContributors = () => {
     {
       icon: Users,
       title: "Shape Products & Services",
-      description: "Your insights help companies build better products and services for Azerbaijan.",
+      description: "Your insights help companies build better products and services for the emerging markets.",
     },
   ];
 
