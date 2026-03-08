@@ -182,26 +182,6 @@ const EarlyAdopters = () => {
         </section>
 
         {/* CTA */}
-        <section className="text-center bg-gradient-to-r from-primary to-primary/80 rounded-3xl p-12">
-          <h2 className="text-3xl md:text-4xl font-heading font-bold text-white mb-4">
-            Join These Leading Organizations
-          </h2>
-          <p className="text-xl text-white/90 mb-8 max-w-2xl mx-auto">
-            Be part of Azerbaijan's data revolution. Get started with Datamız today.
-          </p>
-          <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-            <Button size="lg" asChild className="bg-white text-primary border-white hover:bg-white/90">
-              <a href="#" target="_blank" rel="noopener noreferrer">
-                Create a Contributor Account
-              </a>
-            </Button>
-            <Button size="lg" asChild className="bg-transparent text-white border-2 border-white hover:bg-white/10">
-              <a href="#" target="_blank" rel="noopener noreferrer">
-                Create a Researcher Account
-              </a>
-            </Button>
-          </div>
-        </section>
       </div>
     </div>
   );
