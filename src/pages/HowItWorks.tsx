@@ -64,7 +64,7 @@ const HowItWorks = () => {
             How Datamız Works
           </h1>
           <p className="text-base text-muted-foreground leading-relaxed">
-            Datamız helps organizations and researchers collect reliable, targeted data directly from real people. The platform connects companies and individual researchers with verified contributors who participate in surveys and one-to-one interviews. Product teams, marketing teams, and research professionals use Datamız to gather concrete data such as behavioral patterns, opinions, and expert insights that support better decisions. By bringing participant discovery, screening, and compensation into one system, Datamız makes high-quality data collection simple, structured, and reliable.
+            Datamız helps organizations and researchers collect reliable, targeted data directly from real people. The platform connects companies and individual researchers with verified contributors who participate in surveys and one-to-one interviews. Product teams, marketing teams, and research professionals use Datamız to gather concrete data such as behavioral patterns, opinions, and expert insights that support better decisions. By bringing participant discovery, screening, and compensation into one system, we make high-quality data collection simple and reliable.
           </p>
         </div>
 
