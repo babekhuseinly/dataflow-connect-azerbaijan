@@ -148,9 +148,9 @@ const HowItWorks = () => {
               <div className="w-16 h-16 rounded-full bg-primary/10 flex items-center justify-center mx-auto mb-4">
                 <CheckCircle className="h-8 w-8 text-primary" />
               </div>
-              <h3 className="text-lg font-semibold mb-2">Quality First</h3>
+              <h3 className="text-lg font-semibold mb-2">Verified Contributors</h3>
               <p className="text-sm text-muted-foreground">
-                All contributors are KYC verified to ensure authentic, reliable responses
+                All contributors complete identity verification before joining to ensure authentic and accountable participation.
               </p>
             </div>
             <div className="text-center">
@@ -159,16 +159,16 @@ const HowItWorks = () => {
               </div>
               <h3 className="text-lg font-semibold mb-2">Fair Compensation</h3>
               <p className="text-sm text-muted-foreground">
-                Contributors earn competitive rates for their time and insights
+                Contributors are paid competitive rates for their time and participation in surveys and interviews.
               </p>
             </div>
             <div className="text-center">
               <div className="w-16 h-16 rounded-full bg-primary/10 flex items-center justify-center mx-auto mb-4">
                 <TrendingUp className="h-8 w-8 text-primary" />
               </div>
-              <h3 className="text-lg font-semibold mb-2">Actionable Insights</h3>
+              <h3 className="text-lg font-semibold mb-2">Targeted Participation</h3>
               <p className="text-sm text-muted-foreground">
-                Companies get targeted, high-quality data to drive business decisions
+                Companies connect with contributors who match the required demographics, experience, or background.
               </p>
             </div>
           </div>
