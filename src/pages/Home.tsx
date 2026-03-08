@@ -71,7 +71,7 @@ const Home = () => {
                   <ArrowRight className="ml-2 h-5 w-5" />
                 </Link>
               </Button>
-              <Button size="lg" variant="outline" asChild className="text-lg px-8 bg-white/10 border-white text-white hover:bg-white hover:text-foreground">
+              <Button size="lg" variant="outline" asChild className="text-lg px-8 bg-white/10 border-white text-white hover:bg-white/20">
                 <Link to="/for-companies">
                   Request Data
                   <ArrowRight className="ml-2 h-5 w-5" />
