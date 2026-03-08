@@ -18,22 +18,22 @@ const Contact = () => {
 
           <Card className="p-6 text-center hover:shadow-lg transition-shadow">
             <div className="w-12 h-12 rounded-lg bg-primary/10 flex items-center justify-center mx-auto mb-4">
-              <Phone className="h-6 w-6 text-primary" />
-            </div>
-            <h3 className="font-semibold mb-2">Phone</h3>
-            <a href="tel:+994706000280" className="text-sm text-muted-foreground hover:text-primary">
-              +994 70 600 02 80
-            </a>
-          </Card>
-
-          <Card className="p-6 text-center hover:shadow-lg transition-shadow">
-            <div className="w-12 h-12 rounded-lg bg-primary/10 flex items-center justify-center mx-auto mb-4">
               <MapPin className="h-6 w-6 text-primary" />
             </div>
             <h3 className="font-semibold mb-2">Location</h3>
             <p className="text-sm text-muted-foreground">
               Baku, Azerbaijan
             </p>
+          </Card>
+
+          <Card className="p-6 text-center hover:shadow-lg transition-shadow">
+            <div className="w-12 h-12 rounded-lg bg-primary/10 flex items-center justify-center mx-auto mb-4">
+              <Mail className="h-6 w-6 text-primary" />
+            </div>
+            <h3 className="font-semibold mb-2">Email</h3>
+            <a href="mailto:datamizaz@gmail.com" className="text-sm text-muted-foreground hover:text-primary break-all">
+              datamizaz@gmail.com
+            </a>
           </Card>
 
           <Card className="p-6 text-center hover:shadow-lg transition-shadow">
