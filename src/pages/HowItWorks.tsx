@@ -143,16 +143,7 @@ const HowItWorks = () => {
           <h2 className="text-3xl font-heading font-bold text-center text-foreground mb-12">
             Our Commitment
           </h2>
-          <div className="grid md:grid-cols-3 gap-8">
-            <div className="text-center">
-              <div className="w-16 h-16 rounded-full bg-primary/10 flex items-center justify-center mx-auto mb-4">
-                <CheckCircle className="h-8 w-8 text-primary" />
-              </div>
-              <h3 className="text-lg font-semibold mb-2">Verified Contributors</h3>
-              <p className="text-sm text-muted-foreground">
-                All contributors complete identity verification before joining to ensure authentic and accountable participation.
-              </p>
-            </div>
+          <div className="grid md:grid-cols-2 gap-8 max-w-2xl mx-auto">
             <div className="text-center">
               <div className="w-16 h-16 rounded-full bg-primary/10 flex items-center justify-center mx-auto mb-4">
                 <DollarSign className="h-8 w-8 text-primary" />
@@ -164,11 +155,11 @@ const HowItWorks = () => {
             </div>
             <div className="text-center">
               <div className="w-16 h-16 rounded-full bg-primary/10 flex items-center justify-center mx-auto mb-4">
-                <TrendingUp className="h-8 w-8 text-primary" />
+                <CheckCircle className="h-8 w-8 text-primary" />
               </div>
-              <h3 className="text-lg font-semibold mb-2">Targeted Participation</h3>
+              <h3 className="text-lg font-semibold mb-2">High Data Quality</h3>
               <p className="text-sm text-muted-foreground">
-                Companies connect with contributors who match the required demographics, experience, or background.
+                The platform is designed to ensure reliable responses and reduce low-effort participation.
               </p>
             </div>
           </div>
