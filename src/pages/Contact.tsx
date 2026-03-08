@@ -15,7 +15,6 @@ const Contact = () => {
         </div>
 
         <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
-
           <Card className="p-6 text-center hover:shadow-lg transition-shadow">
             <div className="w-12 h-12 rounded-lg bg-primary/10 flex items-center justify-center mx-auto mb-4">
               <MapPin className="h-6 w-6 text-primary" />
