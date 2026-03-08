@@ -76,8 +76,8 @@ const Footer = () => {
             <h3 className="font-semibold mb-4 text-foreground">Contact</h3>
             <ul className="space-y-3">
               <li className="flex items-start space-x-2 text-sm text-muted-foreground">
-                <MapPin className="h-4 w-4 mt-0.5 text-primary flex-shrink-0" />
-                <span>SABAH Lab, Baku, Azerbaijan</span>
+              <MapPin className="h-4 w-4 mt-0.5 text-primary flex-shrink-0" />
+                <span>Baku, Azerbaijan</span>
               </li>
               <li className="flex items-center space-x-2 text-sm text-muted-foreground">
                 <Mail className="h-4 w-4 text-primary flex-shrink-0" />
