@@ -79,7 +79,7 @@ const ForContributors = () => {
             Earn Money Sharing Your Opinions
           </h1>
           <p className="text-xl text-muted-foreground mb-8">
-            Join thousands of contributors in Azerbaijan who earn extra income by participating in surveys and interviews
+            Join thousands of local data owners who earn extra income by participating in research campaigns.
           </p>
         </div>
 
