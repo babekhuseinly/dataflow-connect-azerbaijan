@@ -199,7 +199,7 @@ const Home = () => {
       </section>
 
       {/* Early Adopters Section */}
-      <section className="py-20 bg-background">
+      <section className="py-20 bg-background overflow-hidden">
         <div className="container">
           <div className="max-w-3xl mx-auto text-center mb-12">
             <h2 className="text-3xl md:text-4xl font-heading font-bold text-foreground mb-4">
@@ -209,21 +209,24 @@ const Home = () => {
               Join these forward-thinking companies already on our waitlist.
             </p>
           </div>
+        </div>
 
-          <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-6 max-w-6xl mx-auto">
-            {earlyAdopters.map((adopter) => (
-              <Card
-                key={adopter.name}
-                className="p-6 flex flex-col items-center justify-center text-center hover:shadow-lg transition-shadow duration-300 min-h-[140px] bg-muted/30"
+        <div className="relative w-full">
+          <div className="flex animate-scroll-left w-max">
+            {[...earlyAdopters, ...earlyAdopters].map((adopter, index) => (
+              <div
+                key={`${adopter.name}-${index}`}
+                className="flex-shrink-0 mx-4"
               >
-                <div className="h-16 mb-3 flex items-center justify-center">
-                  <img src={adopter.logo} alt={adopter.name} className="max-h-12 max-w-full object-contain" />
-                </div>
-                <p className="text-sm font-medium text-foreground">{adopter.name}</p>
-              </Card>
+                <Card className="p-6 flex flex-col items-center justify-center text-center min-h-[140px] w-[180px] bg-muted/30">
+                  <div className="h-16 mb-3 flex items-center justify-center">
+                    <img src={adopter.logo} alt={adopter.name} className="max-h-12 max-w-full object-contain" />
+                  </div>
+                  <p className="text-sm font-medium text-foreground">{adopter.name}</p>
+                </Card>
+              </div>
             ))}
           </div>
-
         </div>
       </section>
 
