@@ -137,7 +137,7 @@ const Header = () => {
             </Link>
             <div className="pt-4">
               <Button className="w-full" asChild>
-                <Link to="/waitlist" onClick={toggleMenu}>Join Waitlist</Link>
+                <a href="https://dashboard.datamiz.az/signup/" target="_blank" rel="noopener noreferrer" onClick={toggleMenu}>Get Early Access</a>
               </Button>
             </div>
           </nav>

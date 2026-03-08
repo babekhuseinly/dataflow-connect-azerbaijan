@@ -41,7 +41,7 @@ const Contact = () => {
             </div>
             <h3 className="font-semibold mb-2">Location</h3>
             <p className="text-sm text-muted-foreground">
-              SABAH Lab<br />Baku, Azerbaijan
+              Baku, Azerbaijan
             </p>
           </Card>
         </div>
