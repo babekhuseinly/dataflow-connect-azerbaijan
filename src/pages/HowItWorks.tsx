@@ -95,7 +95,7 @@ const HowItWorks = () => {
           <div className="text-center">
             <Button size="lg" asChild>
               <Link to="/for-contributors">
-                Learn More About Contributing
+                Learn More
                 <ArrowRight className="ml-2 h-5 w-5" />
               </Link>
             </Button>
@@ -131,7 +131,7 @@ const HowItWorks = () => {
           <div className="text-center">
             <Button size="lg" asChild>
               <Link to="/for-companies">
-                Learn More About Our Platform
+                Learn More
                 <ArrowRight className="ml-2 h-5 w-5" />
               </Link>
             </Button>

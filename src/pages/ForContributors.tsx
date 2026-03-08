@@ -257,18 +257,6 @@ const ForContributors = () => {
           </div>
         </section>
 
-        {/* CTA */}
-        <section className="text-center bg-gradient-to-r from-primary to-primary/80 rounded-3xl p-12">
-          <h2 className="text-3xl md:text-4xl font-heading font-bold text-white mb-4">
-            Ready to Start Earning?
-          </h2>
-          <p className="text-xl text-white/90 mb-8 max-w-2xl mx-auto">
-            Join our waitlist now and be among the first to access earning opportunities
-          </p>
-          <Button size="lg" variant="outline" asChild className="bg-white text-primary hover:bg-white/90">
-            <Link to="/waitlist">Join Waitlist Now</Link>
-          </Button>
-        </section>
       </div>
     </div>
   );

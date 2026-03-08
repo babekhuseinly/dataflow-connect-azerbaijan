@@ -290,23 +290,6 @@ const ForCompanies = () => {
           </div>
         </section>
 
-        {/* CTA */}
-        <section className="text-center bg-gradient-to-r from-primary to-primary/80 rounded-3xl p-12">
-          <h2 className="text-3xl md:text-4xl font-heading font-bold text-white mb-4">
-            Start Gathering Quality Insights Today
-          </h2>
-          <p className="text-xl text-white/90 mb-8 max-w-2xl mx-auto">
-            Join leading organizations already on our waitlist
-          </p>
-          <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <Button size="lg" variant="outline" asChild className="bg-white text-primary hover:bg-white/90">
-              <Link to="/waitlist">Join Waitlist</Link>
-            </Button>
-            <Button size="lg" variant="outline" asChild className="bg-white border-primary text-primary hover:bg-primary/10">
-              <Link to="/contact">Contact Us</Link>
-            </Button>
-          </div>
-        </section>
       </div>
     </div>
   );
