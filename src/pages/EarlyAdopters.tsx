@@ -65,7 +65,7 @@ const EarlyAdopters = () => {
         </div>
 
         {/* Stats */}
-        <div className="grid grid-cols-3 gap-8 max-w-3xl mx-auto mb-20">
+        <div className="grid grid-cols-2 gap-8 max-w-2xl mx-auto mb-20">
           {stats.map((stat) => (
             <div key={stat.label} className="text-center">
               <div className="text-4xl md:text-5xl font-bold text-primary mb-2">{stat.value}</div>
