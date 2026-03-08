@@ -49,7 +49,7 @@ const Privacy = () => {
             <section>
               <h2 className="text-xl font-semibold text-foreground mb-3">6. Contact Us</h2>
               <p>
-                If you have any questions about this Privacy Policy, please contact us at info@datamiz.az
+                If you have any questions about this Privacy Policy, please contact us at datamizaz@gmail.com
               </p>
             </section>
           </div>

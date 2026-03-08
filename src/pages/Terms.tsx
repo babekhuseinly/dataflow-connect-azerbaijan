@@ -42,7 +42,7 @@ const Terms = () => {
             <section>
               <h2 className="text-xl font-semibold text-foreground mb-3">5. Contact</h2>
               <p>
-                If you have any questions about these Terms, please contact us at info@datamiz.az
+                If you have any questions about these Terms, please contact us at datamizaz@gmail.com
               </p>
             </section>
           </div>
