@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 import { Button } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";
-import { Target, Shield, TrendingUp, Clock, CheckCircle, XCircle, ArrowRight } from "lucide-react";
+import { Target, Shield, TrendingUp, Clock, CheckCircle, XCircle, ArrowRight, UserCheck, ClipboardCheck, Star, Fingerprint, Bot } from "lucide-react";
 
 const ForCompanies = () => {
   const painPoints = [
@@ -9,19 +9,19 @@ const ForCompanies = () => {
       icon: XCircle,
       title: "Low Response Rates",
       problem: "Traditional surveys struggle to reach target audiences",
-      solution: "Pre-qualified contributors matched to your exact criteria",
+      solution: "Pre-qualified participants matched to your exact criteria",
     },
     {
       icon: XCircle,
       title: "Unreliable Data",
       problem: "Bot responses and fake accounts compromise data quality",
-      solution: "KYC-verified contributors with reputation scores",
+      solution: "Identity-verified contributors, reputation-based participation, and automated response quality control",
     },
     {
       icon: XCircle,
       title: "Slow Turnaround",
       problem: "Waiting weeks for enough responses delays decisions",
-      solution: "Get quality responses within 24-48 hours",
+      solution: "Get quality responses within 24–48 hours",
     },
     {
       icon: XCircle,
@@ -35,22 +35,50 @@ const ForCompanies = () => {
     {
       icon: Target,
       title: "Precise Targeting",
-      description: "Filter contributors by demographics, location, education, occupation, income level, and interests to reach your exact audience.",
+      description: "Filter participants by demographics, location, education, occupation, income level, and interests to reach your exact audience.",
     },
     {
       icon: Shield,
       title: "Verified Quality",
-      description: "All contributors undergo KYC verification. Track reputation scores and response quality to ensure reliable data.",
+      description: "All contributors undergo identity verification while automated systems monitor response quality and detect low-effort submissions.",
     },
     {
       icon: Clock,
       title: "Fast Results",
-      description: "Launch surveys and start receiving responses within hours. Most projects complete within 24-48 hours.",
+      description: "Launch surveys and start receiving responses within hours. Most projects complete within 24–48 hours.",
     },
     {
       icon: TrendingUp,
       title: "Actionable Insights",
       description: "Real-time analytics dashboard, export capabilities, and detailed response tracking to drive business decisions.",
+    },
+  ];
+
+  const dataIntegrity = [
+    {
+      icon: UserCheck,
+      title: "Verified Contributors",
+      description: "All contributors complete identity verification before joining the platform. This ensures responses come from real individuals rather than anonymous or automated accounts.",
+    },
+    {
+      icon: ClipboardCheck,
+      title: "Application & Screening",
+      description: "Participants apply to surveys and interviews, allowing organizations to review and approve contributors who best match their research criteria.",
+    },
+    {
+      icon: Star,
+      title: "Reputation System",
+      description: "Contributor performance and response quality are tracked over time. High-performing contributors gain stronger reputation scores and access to more research opportunities.",
+    },
+    {
+      icon: Fingerprint,
+      title: "Proof of Fit",
+      description: "When required, contributors may verify professional, demographic, or contextual information to confirm that they match the research requirements.",
+    },
+    {
+      icon: Bot,
+      title: "AI Response Quality Control",
+      description: "Automated systems detect low-effort responses, inconsistencies, and suspicious activity to maintain high-quality research data.",
     },
   ];
 
@@ -84,7 +112,7 @@ const ForCompanies = () => {
     },
     {
       title: "Brand Perception",
-      description: "Measure brand awareness, sentiment, and positioning against competitors in the emerging markets.",
+      description: "Measure brand awareness, sentiment, and positioning against competitors in emerging markets.",
     },
     {
       title: "Product Testing",
@@ -109,7 +137,7 @@ const ForCompanies = () => {
             Access Verified Data Samples
           </h1>
           <p className="text-xl text-muted-foreground mb-8">
-            Collect structured responses from verified participants in your target market.
+            Collect structured responses from identity-verified participants in your target market.
           </p>
         </div>
 
@@ -155,6 +183,27 @@ const ForCompanies = () => {
                 </div>
                 <h3 className="text-lg font-semibold mb-2">{benefit.title}</h3>
                 <p className="text-sm text-muted-foreground">{benefit.description}</p>
+              </Card>
+            ))}
+          </div>
+        </section>
+
+        {/* Data Integrity System */}
+        <section className="mb-20">
+          <h2 className="text-3xl font-heading font-bold text-center text-foreground mb-4">
+            How Datamız Ensures Reliable Data
+          </h2>
+          <p className="text-center text-muted-foreground mb-12 max-w-3xl mx-auto">
+            Datamız uses a multi-layer data integrity system to ensure organizations receive reliable insights from real people. Verification, participant screening, reputation tracking, proof of fit, and AI-powered response analysis work together to prevent fraudulent or low-quality participation.
+          </p>
+          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6 max-w-5xl mx-auto">
+            {dataIntegrity.map((item) => (
+              <Card key={item.title} className="p-6 hover:shadow-lg transition-shadow duration-300">
+                <div className="flex items-center justify-center w-12 h-12 rounded-lg bg-primary/10 mb-4">
+                  <item.icon className="h-6 w-6 text-primary" />
+                </div>
+                <h3 className="text-lg font-semibold mb-2">{item.title}</h3>
+                <p className="text-sm text-muted-foreground">{item.description}</p>
               </Card>
             ))}
           </div>
@@ -213,7 +262,7 @@ const ForCompanies = () => {
               { step: "1", title: "Sign Up", desc: "Create your company account" },
               { step: "2", title: "Define Target", desc: "Set demographic filters" },
               { step: "3", title: "Create Survey", desc: "Build your questionnaire" },
-              { step: "4", title: "Launch", desc: "Contributors start responding" },
+              { step: "4", title: "Launch", desc: "Participants start responding" },
               { step: "5", title: "Analyze", desc: "Access results & insights" },
             ].map((item) => (
               <div key={item.step} className="text-center">
@@ -288,7 +337,7 @@ const ForCompanies = () => {
             Ready to Get Quality Insights?
           </h2>
           <p className="text-xl text-white/90 mb-8 max-w-2xl mx-auto">
-            Start collecting targeted data from verified local contributors.
+            Start collecting targeted data from screened, identity-verified participants.
           </p>
           <Button size="lg" asChild className="bg-white text-primary border-white hover:bg-white/90">
             <a href="https://dashboard.datamiz.az/signup/company/" target="_blank" rel="noopener noreferrer">
