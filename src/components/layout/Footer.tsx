@@ -13,7 +13,7 @@ const Footer = () => {
               <img src={datamizLogo} alt="Datamız" className="h-8" />
             </Link>
             <p className="text-sm text-muted-foreground">
-              Connecting contributors and companies for high-quality data insights in Azerbaijan.
+              Connecting contributors and companies for high-quality local insights.
             </p>
           </div>
 
