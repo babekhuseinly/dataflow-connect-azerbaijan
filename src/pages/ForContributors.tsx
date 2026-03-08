@@ -257,10 +257,10 @@ const ForContributors = () => {
             Ready to Start Earning?
           </h2>
           <p className="text-xl text-white/90 mb-8 max-w-2xl mx-auto">
-            Join hundreds of contributors in Azerbaijan and start earning today.
+            Join hundreds of local contributors and start earning shortly.
           </p>
           <Button size="lg" asChild className="bg-white text-primary border-white hover:bg-white/90">
-            <a href="#" target="_blank" rel="noopener noreferrer">
+            <a href="https://dashboard.datamiz.az/signup/user/" target="_blank" rel="noopener noreferrer">
               Create a Contributor Account
             </a>
           </Button>

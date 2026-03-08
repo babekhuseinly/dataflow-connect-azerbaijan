@@ -290,10 +290,10 @@ const ForCompanies = () => {
             Ready to Get Quality Insights?
           </h2>
           <p className="text-xl text-white/90 mb-8 max-w-2xl mx-auto">
-            Start collecting targeted data from verified contributors across Azerbaijan.
+            Start collecting targeted data from verified local contributors.
           </p>
           <Button size="lg" asChild className="bg-white text-primary border-white hover:bg-white/90">
-            <a href="#" target="_blank" rel="noopener noreferrer">
+            <a href="https://dashboard.datamiz.az/signup/company/" target="_blank" rel="noopener noreferrer">
               Create a Researcher Account
             </a>
           </Button>
