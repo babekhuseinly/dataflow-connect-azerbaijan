@@ -71,7 +71,7 @@ const Home = () => {
                   <ArrowRight className="ml-2 h-5 w-5" />
                 </Link>
               </Button>
-              <Button size="lg" variant="outline" asChild className="text-lg px-8 bg-white/10 border-white text-white hover:bg-white hover:text-foreground">
+              <Button size="lg" variant="outline" asChild className="text-lg px-8 bg-white/10 border-white text-white hover:bg-white/20">
                 <Link to="/for-companies">
                   Request Data
                   <ArrowRight className="ml-2 h-5 w-5" />
@@ -246,10 +246,10 @@ const Home = () => {
               Join Datamız today and be part of Azerbaijan's data revolution.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <Button size="lg" variant="outline" asChild className="bg-white text-primary hover:bg-white/90">
+              <Button size="lg" asChild className="bg-white text-primary border border-white hover:bg-white/90">
                 <Link to="/waitlist">Join Waitlist</Link>
               </Button>
-              <Button size="lg" variant="outline" asChild className="bg-white border-primary text-primary hover:bg-primary/10">
+              <Button size="lg" asChild className="bg-white text-primary border border-white hover:bg-white/90">
                 <Link to="/contact">Contact Us</Link>
               </Button>
             </div>
