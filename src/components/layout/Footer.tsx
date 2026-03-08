@@ -103,6 +103,12 @@ const Footer = () => {
                 <Phone className="h-4 w-4 text-primary flex-shrink-0" />
                 <span>+994 70 600 02 80</span>
               </li>
+              <li className="flex items-center space-x-2 text-sm text-muted-foreground">
+                <Instagram className="h-4 w-4 text-primary flex-shrink-0" />
+                <a href="https://www.instagram.com/datamiz.az/" target="_blank" rel="noopener noreferrer" className="hover:text-primary transition-colors">
+                  @datamiz.az
+                </a>
+              </li>
             </ul>
           </div>
         </div>
