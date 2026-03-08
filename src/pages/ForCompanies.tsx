@@ -263,7 +263,7 @@ const ForCompanies = () => {
           </p>
           <div className="grid md:grid-cols-4 gap-6 max-w-4xl mx-auto">
             <Card className="p-6 text-center hover:shadow-lg transition-shadow duration-300">
-              <p className="text-3xl font-bold text-primary mb-2">1,200 AZN</p>
+              <p className="text-3xl font-bold text-primary mb-2">USD 700</p>
               <p className="text-sm text-muted-foreground">Total Spend</p>
             </Card>
             <Card className="p-6 text-center hover:shadow-lg transition-shadow duration-300">
