@@ -108,7 +108,7 @@ const HowItWorks = () => {
         <section>
           <div className="flex items-center justify-center mb-12">
             <div className="inline-flex items-center space-x-2 bg-primary/10 px-6 py-3 rounded-full">
-              <TrendingUp className="h-5 w-5 text-primary" />
+              <Building2 className="h-5 w-5 text-primary" />
               <span className="text-lg font-semibold text-foreground">For Companies</span>
             </div>
           </div>
