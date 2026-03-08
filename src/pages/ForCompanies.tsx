@@ -238,15 +238,17 @@ const ForCompanies = () => {
             </p>
             <div className="grid md:grid-cols-2 gap-6 mb-8">
               <div>
-                <div className="text-3xl font-bold text-primary mb-2">$1–$8</div>
+                <div className="text-3xl font-bold text-primary mb-2">$1 - $8</div>
                 <div className="text-sm text-muted-foreground">per survey response</div>
-                <p className="text-xs text-muted-foreground mt-1">Price depends on survey length, complexity, and targeting criteria</p>
               </div>
               <div>
                 <div className="text-3xl font-bold text-primary mb-2">From $7</div>
                 <div className="text-sm text-muted-foreground">per 15-minute interview</div>
               </div>
             </div>
+            <p className="text-sm text-muted-foreground mb-2">
+              Price depends on survey length, complexity, and targeting criteria.
+            </p>
             <p className="text-sm text-muted-foreground">
               Custom pricing available for large-scale projects and ongoing research partnerships
             </p>
