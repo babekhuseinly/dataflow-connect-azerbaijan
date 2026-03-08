@@ -105,7 +105,7 @@ const EarlyAdopters = () => {
               </div>
               <h3 className="text-lg font-semibold mb-2">Local Market Access</h3>
               <p className="text-sm text-muted-foreground">
-                Access verified participants with local knowledge and real-world experience from the Azerbaijani market.
+                Reach verified participants with relevant experience and authentic insights.
               </p>
             </div>
             <div className="text-center">
