@@ -224,14 +224,6 @@ const Home = () => {
             ))}
           </div>
 
-          <div className="text-center mt-12">
-            <Button size="lg" asChild>
-              <Link to="/waitlist">
-                Join Our Waitlist
-                <ArrowRight className="ml-2 h-5 w-5" />
-              </Link>
-            </Button>
-          </div>
         </div>
       </section>
 
