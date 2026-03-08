@@ -34,19 +34,14 @@ const ForContributors = () => {
       amount: "One-time setup",
     },
     {
-      title: "Short Surveys",
-      description: "Quick surveys taking 5–15 minutes.",
-      amount: "1–10 AZN per response",
-    },
-    {
-      title: "Long Surveys",
-      description: "Detailed questionnaires requiring 20–45 minutes.",
-      amount: "10–50 AZN per response",
+      title: "Surveys",
+      description: "From quick polls to detailed questionnaires. Compensation depends on the length, complexity, and other advanced factors of each survey.",
+      amount: "$0.5–$30 per submission",
     },
     {
       title: "Video Interviews",
       description: "One-to-one or group video conversations with researchers, usually 15 minutes or longer.",
-      amount: "From 10 AZN per 15 minutes",
+      amount: "From $5 per 15 minutes",
     },
   ];
 
