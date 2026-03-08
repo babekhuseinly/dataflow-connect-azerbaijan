@@ -208,7 +208,7 @@ const ForContributors = () => {
             <Card className="p-6">
               <h3 className="font-semibold mb-2">When do I get paid?</h3>
               <p className="text-sm text-muted-foreground">
-                Payments are processed within 48 hours of completing a survey. You can withdraw once you reach 20 AZN.
+                Payments are processed within 48 hours of completing a survey. You can withdraw once you reach $3.
               </p>
             </Card>
             <Card className="p-6">
