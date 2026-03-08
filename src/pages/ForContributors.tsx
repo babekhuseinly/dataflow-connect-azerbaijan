@@ -202,7 +202,7 @@ const ForContributors = () => {
             <Card className="p-6">
               <h3 className="font-semibold mb-2">How much can I earn?</h3>
               <p className="text-sm text-muted-foreground">
-                Earnings vary based on the type and length of surveys. Active contributors can earn 100-500 AZN per month.
+                Earnings vary based on the type and length of surveys. Active contributors can earn $50–$300+ per month.
               </p>
             </Card>
             <Card className="p-6">
