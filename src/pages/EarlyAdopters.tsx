@@ -65,11 +65,11 @@ const EarlyAdopters = () => {
             <span className="text-sm font-semibold text-primary">Early Adopters</span>
           </div>
           <h1 className="text-4xl md:text-5xl font-heading font-bold text-foreground mb-4">
-            Trusted by Leading Organizations
-          </h1>
-          <p className="text-xl text-muted-foreground">
-            Forward-thinking companies already on our waitlist, ready to transform how they gather insights in Azerbaijan
-          </p>
+             Companies on Our Waitlist
+           </h1>
+           <p className="text-xl text-muted-foreground">
+             Join these forward-thinking companies exploring Datamız.
+           </p>
         </div>
 
         {/* Stats */}

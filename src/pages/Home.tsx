@@ -203,10 +203,10 @@ const Home = () => {
         <div className="container">
           <div className="max-w-3xl mx-auto text-center mb-12">
             <h2 className="text-3xl md:text-4xl font-heading font-bold text-foreground mb-4">
-              Trusted by Leading Organizations
+              Companies on Our Waitlist
             </h2>
             <p className="text-lg text-muted-foreground">
-              Join these forward-thinking companies already on our waitlist.
+              Join these forward-thinking companies exploring Datamız.
             </p>
           </div>
         </div>
