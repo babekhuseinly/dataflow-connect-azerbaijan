@@ -10,7 +10,7 @@ const About = () => {
             About Datamız
           </h1>
           <p className="text-xl text-muted-foreground">
-            Building Azerbaijan's premier data marketplace
+            Building revolutionary data marketplace
           </p>
         </div>
 
