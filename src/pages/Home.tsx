@@ -139,7 +139,7 @@ const Home = () => {
               </div>
               <h3 className="text-2xl font-heading font-semibold mb-4">For Companies</h3>
               <p className="text-muted-foreground mb-6">
-                Access high-quality, targeted data from verified contributors across Azerbaijan.
+                Access high-quality, targeted data from verified contributors across the region.
               </p>
               <ul className="space-y-3 mb-6">
                 <li className="flex items-start">
@@ -180,7 +180,7 @@ const Home = () => {
               Why Choose Datamız?
             </h2>
             <p className="text-lg text-muted-foreground">
-              Built for the Azerbaijani market with local expertise and global standards.
+              Built with local expertise, designed for regional scale.
             </p>
           </div>
 
@@ -206,7 +206,7 @@ const Home = () => {
               Trusted by Leading Organizations
             </h2>
             <p className="text-lg text-muted-foreground">
-              Join these forward-thinking companies already on our waitlist
+              Join these forward-thinking companies already on our waitlist.
             </p>
           </div>
 
@@ -243,7 +243,7 @@ const Home = () => {
               Ready to Get Started?
             </h2>
             <p className="text-xl text-white/90">
-              Join Datamız today and be part of Azerbaijan's data revolution.
+              Join Datamız today and be part of a new data economy.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Button size="lg" asChild className="bg-white text-primary border border-white hover:bg-white/90">

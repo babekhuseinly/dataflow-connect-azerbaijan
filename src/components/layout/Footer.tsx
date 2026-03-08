@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 import { Mail, MapPin, Phone } from "lucide-react";
-import datamizLogo from "@/assets/logo-datamiz.png";
+import datamizLogo from "@/assets/logo-dark.png";
 
 const Footer = () => {
   return (
@@ -13,7 +13,7 @@ const Footer = () => {
               <img src={datamizLogo} alt="Datamız" className="h-8" />
             </Link>
             <p className="text-sm text-muted-foreground">
-              Connecting contributors and companies for high-quality data insights in Azerbaijan.
+              Connecting contributors and companies for high-quality local insights.
             </p>
           </div>
 
@@ -76,8 +76,8 @@ const Footer = () => {
             <h3 className="font-semibold mb-4 text-foreground">Contact</h3>
             <ul className="space-y-3">
               <li className="flex items-start space-x-2 text-sm text-muted-foreground">
-                <MapPin className="h-4 w-4 mt-0.5 text-primary flex-shrink-0" />
-                <span>SABAH Lab, Baku, Azerbaijan</span>
+              <MapPin className="h-4 w-4 mt-0.5 text-primary flex-shrink-0" />
+                <span>Baku, Azerbaijan</span>
               </li>
               <li className="flex items-center space-x-2 text-sm text-muted-foreground">
                 <Mail className="h-4 w-4 text-primary flex-shrink-0" />
@@ -87,7 +87,7 @@ const Footer = () => {
               </li>
               <li className="flex items-center space-x-2 text-sm text-muted-foreground">
                 <Phone className="h-4 w-4 text-primary flex-shrink-0" />
-                <span>+994 50 XXX XX XX</span>
+                <span>+994 70 602 80</span>
               </li>
             </ul>
           </div>
@@ -96,7 +96,7 @@ const Footer = () => {
         <div className="mt-12 pt-8 border-t border-border">
           <div className="flex flex-col md:flex-row justify-between items-center space-y-4 md:space-y-0">
             <p className="text-sm text-muted-foreground">
-              © {new Date().getFullYear()} Datamız. Part of SABAH Lab Incubation Program. All rights reserved.
+              © {new Date().getFullYear()} Datamız. All rights reserved.
             </p>
             <div className="flex space-x-6">
               <Link to="/terms" className="text-sm text-muted-foreground hover:text-primary transition-colors">
