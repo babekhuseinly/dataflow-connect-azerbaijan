@@ -251,6 +251,21 @@ const ForContributors = () => {
           </div>
         </section>
 
+        {/* CTA */}
+        <section className="text-center bg-gradient-to-r from-primary to-primary/80 rounded-3xl p-12">
+          <h2 className="text-3xl md:text-4xl font-heading font-bold text-white mb-4">
+            Ready to Start Earning?
+          </h2>
+          <p className="text-xl text-white/90 mb-8 max-w-2xl mx-auto">
+            Join hundreds of contributors in Azerbaijan and start earning today.
+          </p>
+          <Button size="lg" asChild className="bg-white text-primary border-white hover:bg-white/90">
+            <a href="#" target="_blank" rel="noopener noreferrer">
+              Create a Contributor Account
+            </a>
+          </Button>
+        </section>
+
       </div>
     </div>
   );
