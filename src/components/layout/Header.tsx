@@ -96,7 +96,7 @@ const Header = () => {
             {isDark ? <Sun className="h-5 w-5" /> : <Moon className="h-5 w-5" />}
           </button>
           <Button asChild>
-            <Link to="/waitlist">Join Waitlist</Link>
+            <a href="https://dashboard.datamiz.az/signup/" target="_blank" rel="noopener noreferrer">Get Early Access</a>
           </Button>
         </div>
 
