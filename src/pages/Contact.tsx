@@ -30,8 +30,8 @@ const Contact = () => {
               <Phone className="h-6 w-6 text-primary" />
             </div>
             <h3 className="font-semibold mb-2">Phone</h3>
-            <a href="tel:+994501234567" className="text-sm text-muted-foreground hover:text-primary">
-              +994 50 123 45 67
+            <a href="tel:+994706000280" className="text-sm text-muted-foreground hover:text-primary">
+              +994 70 600 02 80
             </a>
           </Card>
 
