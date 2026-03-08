@@ -11,13 +11,6 @@ import enhencerLogo from "@/assets/company-logos/enhencer.png";
 import inkYouLogo from "@/assets/company-logos/ink-you.png";
 
 const Home = () => {
-  const stats = [
-    { label: "Active Contributors", value: "1,000+" },
-    { label: "Partner Companies", value: "50+" },
-    { label: "Surveys Completed", value: "5,000+" },
-    { label: "Avg. Response Time", value: "24h" },
-  ];
-
   const features = [
     {
       icon: Users,
