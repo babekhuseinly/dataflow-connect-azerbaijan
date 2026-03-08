@@ -106,7 +106,7 @@ const Home = () => {
               </div>
               <h3 className="text-2xl font-heading font-semibold mb-4">For Contributors</h3>
               <p className="text-muted-foreground mb-6">
-                Earn money by sharing your opinions through surveys and interviews. Your insights matter.
+                Earn money by sharing your opinions through surveys and interviews.
               </p>
               <ul className="space-y-3 mb-6">
                 <li className="flex items-start">
