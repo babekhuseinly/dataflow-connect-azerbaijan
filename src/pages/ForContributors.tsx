@@ -66,10 +66,8 @@ const ForContributors = () => {
 
   const eligibility = [
     "18 years or older",
-    "Resident of Azerbaijan",
     "Valid government-issued ID for verification",
     "Active mobile number and email",
-    "Bank account or mobile money for payments",
   ];
 
   return (
