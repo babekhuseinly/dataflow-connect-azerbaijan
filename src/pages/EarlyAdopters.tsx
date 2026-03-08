@@ -187,13 +187,20 @@ const EarlyAdopters = () => {
             Join These Leading Organizations
           </h2>
           <p className="text-xl text-white/90 mb-8 max-w-2xl mx-auto">
-            Be part of Azerbaijan's data revolution. Get early access to Datamız.
+            Be part of Azerbaijan's data revolution. Get started with Datamız today.
           </p>
-          <Button size="lg" asChild className="bg-white text-primary border-white hover:bg-white/90">
-            <a href="https://dashboard.datamiz.az/signup/" target="_blank" rel="noopener noreferrer">
-              Get Early Access
-            </a>
-          </Button>
+          <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
+            <Button size="lg" asChild className="bg-white text-primary border-white hover:bg-white/90">
+              <a href="#" target="_blank" rel="noopener noreferrer">
+                Create a Contributor Account
+              </a>
+            </Button>
+            <Button size="lg" asChild className="bg-transparent text-white border-2 border-white hover:bg-white/10">
+              <a href="#" target="_blank" rel="noopener noreferrer">
+                Create a Researcher Account
+              </a>
+            </Button>
+          </div>
         </section>
       </div>
     </div>
