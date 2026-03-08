@@ -164,11 +164,11 @@ const EarlyAdopters = () => {
             {[
               "Financial Services",
               "Insurance",
-              "Economic Development",
+              "Food & Beverage",
               "Marketing Technology",
               "Creative Services",
               "Corporate Training",
-              "Technology",
+              "FMCG",
               "Retail",
             ].map((industry) => (
               <div
