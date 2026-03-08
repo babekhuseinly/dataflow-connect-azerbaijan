@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 import { Button } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";
-import { UserPlus, FileText, Target, Building2, CheckCircle, DollarSign, ArrowRight } from "lucide-react";
+import { UserPlus, FileText, Target, TrendingUp, Building2, CheckCircle, DollarSign, ArrowRight } from "lucide-react";
 
 const HowItWorks = () => {
   const contributorSteps = [
