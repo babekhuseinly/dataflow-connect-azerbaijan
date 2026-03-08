@@ -9,6 +9,7 @@ import pashaLifeLogo from "@/assets/company-logos/pasha-life.png";
 import korponLogo from "@/assets/company-logos/korpon.png";
 import enhencerLogo from "@/assets/company-logos/enhencer.png";
 import inkYouLogo from "@/assets/company-logos/ink-you.png";
+import swanLogo from "@/assets/company-logos/swan.png";
 
 const Home = () => {
   const features = [
@@ -41,6 +42,7 @@ const Home = () => {
     { name: "KorpON", logo: korponLogo },
     { name: "Enhencer", logo: enhencerLogo },
     { name: "Ink&You", logo: inkYouLogo },
+    { name: "SWAN", logo: swanLogo },
   ];
 
   return (
