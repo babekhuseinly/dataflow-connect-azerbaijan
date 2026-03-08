@@ -180,7 +180,7 @@ const Home = () => {
               Why Choose Datamız?
             </h2>
             <p className="text-lg text-muted-foreground">
-              Built for the Azerbaijani market with local expertise and global standards.
+              Built with local expertise, designed for regional scale.
             </p>
           </div>
 
