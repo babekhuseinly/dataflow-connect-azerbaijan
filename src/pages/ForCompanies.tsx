@@ -84,7 +84,7 @@ const ForCompanies = () => {
     },
     {
       title: "Brand Perception",
-      description: "Measure brand awareness, sentiment, and positioning against competitors in the Azerbaijani market.",
+      description: "Measure brand awareness, sentiment, and positioning against competitors in the emerging markets.",
     },
     {
       title: "Product Testing",
@@ -106,10 +106,10 @@ const ForCompanies = () => {
         {/* Header */}
         <div className="max-w-3xl mx-auto text-center mb-16">
           <h1 className="text-4xl md:text-5xl font-heading font-bold text-foreground mb-4">
-            Access High-Quality Data from Verified Contributors
+            Access Verified Data Samples
           </h1>
           <p className="text-xl text-muted-foreground mb-8">
-            Get targeted insights from real people across Azerbaijan to make better business decisions
+            Collect structured responses from verified participants in your target market.
           </p>
         </div>
 
@@ -236,18 +236,15 @@ const ForCompanies = () => {
             <p className="text-muted-foreground mb-8">
               Pay only for completed responses. No subscription fees or hidden costs.
             </p>
-            <div className="grid md:grid-cols-3 gap-6 mb-8">
+            <div className="grid md:grid-cols-2 gap-6 mb-8">
               <div>
-                <div className="text-3xl font-bold text-primary mb-2">1.5-5 AZN</div>
-                <div className="text-sm text-muted-foreground">per short survey response</div>
+                <div className="text-3xl font-bold text-primary mb-2">$1–$8</div>
+                <div className="text-sm text-muted-foreground">per survey response</div>
+                <p className="text-xs text-muted-foreground mt-1">Price depends on survey length, complexity, and targeting criteria</p>
               </div>
               <div>
-                <div className="text-3xl font-bold text-primary mb-2">10-25 AZN</div>
-                <div className="text-sm text-muted-foreground">per detailed survey response</div>
-              </div>
-              <div>
-                <div className="text-3xl font-bold text-primary mb-2">40-80 AZN</div>
-                <div className="text-sm text-muted-foreground">per interview participant</div>
+                <div className="text-3xl font-bold text-primary mb-2">From $7</div>
+                <div className="text-sm text-muted-foreground">per 15-minute interview</div>
               </div>
             </div>
             <p className="text-sm text-muted-foreground">
@@ -266,7 +263,7 @@ const ForCompanies = () => {
           </p>
           <div className="grid md:grid-cols-4 gap-6 max-w-4xl mx-auto">
             <Card className="p-6 text-center hover:shadow-lg transition-shadow duration-300">
-              <p className="text-3xl font-bold text-primary mb-2">1,200 AZN</p>
+              <p className="text-3xl font-bold text-primary mb-2">USD 700</p>
               <p className="text-sm text-muted-foreground">Total Spend</p>
             </Card>
             <Card className="p-6 text-center hover:shadow-lg transition-shadow duration-300">
