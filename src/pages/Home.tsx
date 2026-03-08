@@ -15,7 +15,7 @@ const Home = () => {
     {
       icon: Users,
       title: "Quality Contributors",
-      description: "Access verified contributors with detailed demographic profiles across Azerbaijan",
+      description: "Access verified contributors with detailed demographic profiles across the region",
     },
     {
       icon: Target,
