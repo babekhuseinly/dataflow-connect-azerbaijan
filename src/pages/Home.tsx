@@ -90,7 +90,7 @@ const Home = () => {
               A Two-Sided Data Marketplace
             </h2>
             <p className="text-lg text-muted-foreground">
-              Datamız connects those who provide data with those who need it, creating value for everyone.
+              Datamız connects those who provide data with those who need it,<br />creating value for everyone.
             </p>
           </div>
 
