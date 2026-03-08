@@ -50,8 +50,8 @@ const EarlyAdopters = () => {
   ];
 
   const stats = [
-    { value: "300+", label: "Contributors" },
-    { value: "10+", label: "Companies" },
+    { value: "300+", label: "Waitlisted Contributors" },
+    { value: "10+", label: "Waitlisted Companies" },
   ];
 
   return (
