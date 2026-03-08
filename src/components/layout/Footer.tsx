@@ -1,8 +1,22 @@
 import { Link } from "react-router-dom";
 import { Mail, MapPin, Phone } from "lucide-react";
-import datamizLogo from "@/assets/logo-dark.png";
+import logoLight from "@/assets/logo-light.png";
+import logoDark from "@/assets/logo-dark.png";
+import { useEffect, useState } from "react";
 
 const Footer = () => {
+  const [isDark, setIsDark] = useState(() =>
+    document.documentElement.classList.contains("dark")
+  );
+
+  useEffect(() => {
+    const observer = new MutationObserver(() => {
+      setIsDark(document.documentElement.classList.contains("dark"));
+    });
+    observer.observe(document.documentElement, { attributes: true, attributeFilter: ["class"] });
+    return () => observer.disconnect();
+  }, []);
+
   return (
     <footer className="border-t border-border bg-muted/30">
       <div className="container py-12">
@@ -10,7 +24,7 @@ const Footer = () => {
           {/* Brand */}
           <div className="space-y-4">
             <Link to="/" className="flex items-center">
-              <img src={datamizLogo} alt="Datamız" className="h-8" />
+              <img src={isDark ? logoDark : logoLight} alt="Datamız" className="h-8 transition-opacity duration-300" />
             </Link>
             <p className="text-sm text-muted-foreground">
               Connecting contributors and companies for high-quality local insights.
