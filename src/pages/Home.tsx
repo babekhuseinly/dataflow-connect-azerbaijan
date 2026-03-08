@@ -42,6 +42,7 @@ const Home = () => {
     { name: "KorpON", logo: korponLogo },
     { name: "Enhencer", logo: enhencerLogo },
     { name: "Ink&You", logo: inkYouLogo },
+    { name: "SWAN", logo: swanLogo },
   ];
 
   return (
