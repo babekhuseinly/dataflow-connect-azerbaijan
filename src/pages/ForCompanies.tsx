@@ -311,14 +311,10 @@ const ForCompanies = () => {
           <p className="text-center text-muted-foreground mb-12 max-w-2xl mx-auto">
             Monitor your research campaigns with comprehensive analytics and insights
           </p>
-          <div className="grid md:grid-cols-4 gap-6 max-w-4xl mx-auto">
+          <div className="grid md:grid-cols-3 gap-6 max-w-3xl mx-auto">
             <Card className="p-6 text-center hover:shadow-lg transition-shadow duration-300">
               <p className="text-3xl font-bold text-primary mb-2">USD 700</p>
-              <p className="text-sm text-muted-foreground">Total Spend</p>
-            </Card>
-            <Card className="p-6 text-center hover:shadow-lg transition-shadow duration-300">
-              <p className="text-3xl font-bold text-primary mb-2">8</p>
-              <p className="text-sm text-muted-foreground">Surveys Published</p>
+              <p className="text-sm text-muted-foreground">Total Spent</p>
             </Card>
             <Card className="p-6 text-center hover:shadow-lg transition-shadow duration-300">
               <p className="text-3xl font-bold text-primary mb-2">92%</p>
