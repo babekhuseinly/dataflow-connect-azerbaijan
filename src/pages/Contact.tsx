@@ -20,8 +20,8 @@ const Contact = () => {
               <Mail className="h-6 w-6 text-primary" />
             </div>
             <h3 className="font-semibold mb-2">Email</h3>
-            <a href="mailto:info@datamiz.az" className="text-sm text-muted-foreground hover:text-primary">
-              info@datamiz.az
+            <a href="mailto:datamizaz@gmail.com" className="text-sm text-muted-foreground hover:text-primary">
+              datamizaz@gmail.com
             </a>
           </Card>
 
