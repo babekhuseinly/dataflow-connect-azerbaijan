@@ -10,6 +10,7 @@ import korponLogo from "@/assets/company-logos/korpon.png";
 import enhencerLogo from "@/assets/company-logos/enhencer.png";
 import inkYouLogo from "@/assets/company-logos/ink-you.png";
 import swanLogo from "@/assets/company-logos/swan.png";
+import fourYouCareLogo from "@/assets/company-logos/4youcare.jpg";
 
 const Home = () => {
   const features = [
