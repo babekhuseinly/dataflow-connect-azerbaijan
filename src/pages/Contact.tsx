@@ -20,8 +20,8 @@ const Contact = () => {
               <Mail className="h-6 w-6 text-primary" />
             </div>
             <h3 className="font-semibold mb-2">Email</h3>
-            <a href="mailto:info@datamiz.az" className="text-sm text-muted-foreground hover:text-primary">
-              info@datamiz.az
+            <a href="mailto:datamizaz@gmail.com" className="text-sm text-muted-foreground hover:text-primary">
+              datamizaz@gmail.com
             </a>
           </Card>
 
@@ -30,8 +30,8 @@ const Contact = () => {
               <Phone className="h-6 w-6 text-primary" />
             </div>
             <h3 className="font-semibold mb-2">Phone</h3>
-            <a href="tel:+994501234567" className="text-sm text-muted-foreground hover:text-primary">
-              +994 50 123 45 67
+            <a href="tel:+994706000280" className="text-sm text-muted-foreground hover:text-primary">
+              +994 70 600 02 80
             </a>
           </Card>
 
@@ -41,7 +41,7 @@ const Contact = () => {
             </div>
             <h3 className="font-semibold mb-2">Location</h3>
             <p className="text-sm text-muted-foreground">
-              SABAH Lab<br />Baku, Azerbaijan
+              Baku, Azerbaijan
             </p>
           </Card>
         </div>

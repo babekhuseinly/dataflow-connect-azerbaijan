@@ -224,14 +224,6 @@ const Home = () => {
             ))}
           </div>
 
-          <div className="text-center mt-12">
-            <Button size="lg" asChild>
-              <Link to="/waitlist">
-                Join Our Waitlist
-                <ArrowRight className="ml-2 h-5 w-5" />
-              </Link>
-            </Button>
-          </div>
         </div>
       </section>
 
@@ -247,7 +239,7 @@ const Home = () => {
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Button size="lg" asChild className="bg-white text-primary border border-white hover:bg-white/90">
-                <Link to="/waitlist">Join Waitlist</Link>
+                <a href="https://dashboard.datamiz.az/signup/" target="_blank" rel="noopener noreferrer">Get Early Access</a>
               </Button>
               <Button size="lg" asChild className="bg-white text-primary border border-white hover:bg-white/90">
                 <Link to="/contact">Contact Us</Link>
