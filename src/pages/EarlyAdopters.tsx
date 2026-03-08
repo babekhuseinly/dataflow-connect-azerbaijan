@@ -105,7 +105,7 @@ const EarlyAdopters = () => {
               </div>
               <h3 className="text-lg font-semibold mb-2">Local Market Access</h3>
               <p className="text-sm text-muted-foreground">
-                Reach verified local participants with relevant experience and insights from the Azerbaijani market.
+                Access verified participants with local knowledge and real-world experience from the Azerbaijani market.
               </p>
             </div>
             <div className="text-center">
@@ -114,7 +114,7 @@ const EarlyAdopters = () => {
               </div>
               <h3 className="text-lg font-semibold mb-2">High-Quality Data</h3>
               <p className="text-sm text-muted-foreground">
-                KYC-verified contributors provide authentic and reliable responses for research and decision-making.
+                Identity verification, screening, and automated quality checks ensure reliable responses for research and decision-making.
               </p>
             </div>
             <div className="text-center">
@@ -123,7 +123,7 @@ const EarlyAdopters = () => {
               </div>
               <h3 className="text-lg font-semibold mb-2">SABAH.lab Graduate</h3>
               <p className="text-sm text-muted-foreground">
-                Datamız successfully completed the SABAH.lab startup incubation program.
+                Datamız is a graduate of the SABAH.lab startup incubation program supporting innovative technology ventures.
               </p>
             </div>
           </div>
