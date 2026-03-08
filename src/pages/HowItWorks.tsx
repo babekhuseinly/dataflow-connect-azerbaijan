@@ -60,19 +60,9 @@ const HowItWorks = () => {
       <div className="container">
         {/* Header */}
         <div className="max-w-3xl mx-auto text-center mb-16">
-          <h1 className="text-4xl md:text-5xl font-heading font-bold text-foreground mb-4">
+          <h1 className="text-4xl md:text-5xl font-heading font-bold text-foreground mb-6">
             How Datamız Works
           </h1>
-          <p className="text-xl text-muted-foreground">
-            A simple, transparent process for contributors and companies
-          </p>
-        </div>
-
-        {/* Mission Section */}
-        <div className="max-w-3xl mx-auto text-center mb-20">
-          <h2 className="text-2xl md:text-3xl font-heading font-semibold text-foreground mb-4">
-            What Datamız Enables
-          </h2>
           <p className="text-base text-muted-foreground leading-relaxed">
             Datamız helps organizations and researchers collect reliable, targeted data directly from real people. The platform connects companies and individual researchers with verified contributors who participate in surveys and one-to-one interviews. Product teams, marketing teams, and research professionals use Datamız to gather concrete data such as behavioral patterns, opinions, and expert insights that support better decisions. By bringing participant discovery, screening, and compensation into one system, Datamız makes high-quality data collection simple, structured, and reliable.
           </p>
