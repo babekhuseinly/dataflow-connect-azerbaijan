@@ -14,16 +14,7 @@ const Contact = () => {
           </p>
         </div>
 
-        <div className="grid md:grid-cols-3 lg:grid-cols-5 gap-6">
-          <Card className="p-6 text-center hover:shadow-lg transition-shadow">
-            <div className="w-12 h-12 rounded-lg bg-primary/10 flex items-center justify-center mx-auto mb-4">
-              <Mail className="h-6 w-6 text-primary" />
-            </div>
-            <h3 className="font-semibold mb-2">Email</h3>
-            <a href="mailto:datamizaz@gmail.com" className="text-sm text-muted-foreground hover:text-primary break-all">
-              datamizaz@gmail.com
-            </a>
-          </Card>
+        <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
 
           <Card className="p-6 text-center hover:shadow-lg transition-shadow">
             <div className="w-12 h-12 rounded-lg bg-primary/10 flex items-center justify-center mx-auto mb-4">
