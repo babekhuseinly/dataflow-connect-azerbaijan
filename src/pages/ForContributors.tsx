@@ -88,12 +88,6 @@ const ForContributors = () => {
           <p className="text-xl text-muted-foreground mb-8">
             Join thousands of contributors in Azerbaijan who earn extra income by participating in surveys and interviews
           </p>
-          <Button size="lg" asChild>
-            <Link to="/waitlist">
-              Join Waitlist
-              <ArrowRight className="ml-2 h-5 w-5" />
-            </Link>
-          </Button>
         </div>
 
         {/* Benefits */}

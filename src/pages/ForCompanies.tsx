@@ -111,12 +111,6 @@ const ForCompanies = () => {
           <p className="text-xl text-muted-foreground mb-8">
             Get targeted insights from real people across Azerbaijan to make better business decisions
           </p>
-          <Button size="lg" asChild>
-            <Link to="/waitlist">
-              Join Waitlist
-              <ArrowRight className="ml-2 h-5 w-5" />
-            </Link>
-          </Button>
         </div>
 
         {/* Pain Points */}

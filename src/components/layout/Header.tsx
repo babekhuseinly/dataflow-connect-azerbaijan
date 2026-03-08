@@ -137,7 +137,7 @@ const Header = () => {
             </Link>
             <div className="pt-4">
               <Button className="w-full" asChild>
-                <a href="https://dashboard.datamiz.az/signup/" target="_blank" rel="noopener noreferrer" onClick={toggleMenu}>Get Early Access</a>
+                <a href="https://dashboard.datamiz.az/signup/" target="_blank" rel="noopener noreferrer" onClick={toggleMenu}>Sign In</a>
               </Button>
             </div>
           </nav>
