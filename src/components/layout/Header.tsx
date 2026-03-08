@@ -40,7 +40,7 @@ const Header = () => {
           <img
             src={isDark ? logoDark : logoLight}
             alt="Datamız"
-            className="h-10 md:h-12 object-contain"
+            className={`object-contain ${isDark ? 'h-8 md:h-10' : 'h-10 md:h-12'}`}
           />
         </Link>
 
