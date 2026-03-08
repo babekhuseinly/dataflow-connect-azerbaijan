@@ -23,7 +23,7 @@ const ForContributors = () => {
     {
       icon: Users,
       title: "Shape Products & Services",
-      description: "Your insights help companies build better products and services for Azerbaijan.",
+      description: "Your insights help companies build better products and services for the emerging markets.",
     },
   ];
 
@@ -34,26 +34,21 @@ const ForContributors = () => {
       amount: "One-time setup",
     },
     {
-      title: "Short Surveys",
-      description: "Quick surveys taking 5–15 minutes.",
-      amount: "1–10 AZN per response",
-    },
-    {
-      title: "Long Surveys",
-      description: "Detailed questionnaires requiring 20–45 minutes.",
-      amount: "10–50 AZN per response",
+      title: "Surveys",
+      description: "From quick polls to detailed questionnaires. Compensation depends on the length, complexity, and other advanced factors of each survey.",
+      amount: "$0.5–$30 per submission",
     },
     {
       title: "Video Interviews",
       description: "One-to-one or group video conversations with researchers, usually 15 minutes or longer.",
-      amount: "From 10 AZN per 15 minutes",
+      amount: "From $5 per 15 minutes",
     },
   ];
 
   const analyticsStats = [
     {
       label: "Total Earned",
-      value: "245 AZN",
+      value: "USD 145",
     },
     {
       label: "Surveys Completed",
@@ -71,10 +66,8 @@ const ForContributors = () => {
 
   const eligibility = [
     "18 years or older",
-    "Resident of Azerbaijan",
     "Valid government-issued ID for verification",
     "Active mobile number and email",
-    "Bank account or mobile money for payments",
   ];
 
   return (
@@ -86,7 +79,7 @@ const ForContributors = () => {
             Earn Money Sharing Your Opinions
           </h1>
           <p className="text-xl text-muted-foreground mb-8">
-            Join thousands of contributors in Azerbaijan who earn extra income by participating in surveys and interviews
+            Join thousands of local data owners who earn extra income by participating in research campaigns.
           </p>
         </div>
 
@@ -209,13 +202,13 @@ const ForContributors = () => {
             <Card className="p-6">
               <h3 className="font-semibold mb-2">How much can I earn?</h3>
               <p className="text-sm text-muted-foreground">
-                Earnings vary based on the type and length of surveys. Active contributors can earn 100-500 AZN per month.
+                Earnings vary based on the type and length of surveys. Active contributors can earn $50–$300+ per month.
               </p>
             </Card>
             <Card className="p-6">
               <h3 className="font-semibold mb-2">When do I get paid?</h3>
               <p className="text-sm text-muted-foreground">
-                Payments are processed within 48 hours of completing a survey. You can withdraw once you reach 20 AZN.
+                Payments are processed within 48 hours of completing a survey. You can withdraw once you reach $3.
               </p>
             </Card>
             <Card className="p-6">
