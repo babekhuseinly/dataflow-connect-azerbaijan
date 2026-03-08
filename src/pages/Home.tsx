@@ -57,10 +57,12 @@ const Home = () => {
         <div className="container relative z-10">
           <div className="max-w-3xl mx-auto text-center space-y-8">
             <h1 className="text-4xl md:text-6xl font-heading font-bold text-white leading-tight">
-              Unlock High-Quality Data from Real People
+              Find the Right People for Your Research
             </h1>
             <p className="text-xl md:text-2xl text-white/90">
-              Connect with verified contributors for surveys and interviews. Get precise, targeted insights for your business.
+              Connect with verified contributors for surveys and interviews.
+              <br />
+              Access reliable, targeted data for research and decision-making.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Button size="lg" asChild className="text-lg px-8">
