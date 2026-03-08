@@ -109,6 +109,12 @@ const Footer = () => {
                   @datamiz.az
                 </a>
               </li>
+              <li className="flex items-center space-x-2 text-sm text-muted-foreground">
+                <Linkedin className="h-4 w-4 text-primary flex-shrink-0" />
+                <a href="https://www.linkedin.com/company/datamiz/" target="_blank" rel="noopener noreferrer" className="hover:text-primary transition-colors">
+                  Datamız
+                </a>
+              </li>
             </ul>
           </div>
         </div>
