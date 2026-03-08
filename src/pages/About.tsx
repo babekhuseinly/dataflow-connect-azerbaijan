@@ -49,7 +49,7 @@ const About = () => {
               </div>
               <h3 className="font-semibold mb-2">Local Focus</h3>
               <p className="text-sm text-muted-foreground">
-                Built specifically for the Azerbaijani market
+                Built specifically for the emerging markets
               </p>
             </Card>
           </div>
