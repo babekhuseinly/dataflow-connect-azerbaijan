@@ -147,7 +147,9 @@ const ForCompanies = () => {
             Common Challenges We Solve
           </h2>
           <p className="text-center text-muted-foreground mb-12 max-w-2xl mx-auto">
-            Traditional data collection methods have significant limitations. Here's how Datamız addresses them.
+            Traditional data collection methods have significant limitations.
+            <br />
+            Here's how Datamız addresses them:
           </p>
           <div className="grid md:grid-cols-2 gap-6 max-w-5xl mx-auto">
             {painPoints.map((point) => (
