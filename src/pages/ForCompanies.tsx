@@ -311,7 +311,7 @@ const ForCompanies = () => {
             Campaign Analytics
           </h2>
           <p className="text-center text-muted-foreground mb-12 max-w-2xl mx-auto">
-            Monitor your research campaigns with comprehensive analytics and insights
+            Monitor your research campaigns with comprehensive analytics and insights.
           </p>
           <div className="grid md:grid-cols-3 gap-6 max-w-3xl mx-auto">
             <Card className="p-6 text-center hover:shadow-lg transition-shadow duration-300">
