@@ -15,19 +15,19 @@ import fourYouCareLogo from "@/assets/company-logos/4youcare.jpg";
 const Home = () => {
   const features = [
     {
-      icon: Shield,
-      title: "KYC-Verified Contributors",
-      description: "Identity verification using a national ID or passport is required for all contributors to ensure transparency.",
+      icon: UserCheck,
+      title: "Verified Contributors",
+      description: "All contributors complete identity verification before joining the platform. This ensures responses come from real individuals rather than anonymous or automated accounts.",
     },
     {
       icon: ClipboardCheck,
-      title: "Application-Based Participation",
-      description: "Contributors apply before joining, filtering out low-quality and opportunistic users early.",
+      title: "Application & Screening",
+      description: "Participants apply to surveys and interviews, allowing organizations to review and approve contributors who best match their research criteria.",
     },
     {
-      icon: Puzzle,
+      icon: Fingerprint,
       title: "Proof of Fit",
-      description: "Companies can request documented proof such as residency, employment history, or credentials.",
+      description: "When required, contributors may verify professional, demographic, or contextual information to confirm that they match the research requirements.",
     },
   ];
 
