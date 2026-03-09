@@ -80,6 +80,11 @@ const ForCompanies = () => {
       title: "AI Response Quality Control",
       description: "Automated systems detect low-effort responses, inconsistencies, and suspicious activity to maintain high-quality research data.",
     },
+    {
+      icon: Target,
+      title: "Targeted Participant Matching",
+      description: "Participants are matched based on relevant demographics, location, profession, and interests to ensure responses come from the right audience for your research.",
+    },
   ];
 
   const targetingFilters = [
@@ -179,7 +184,7 @@ const ForCompanies = () => {
             How Datamız Ensures Reliable Data
           </h2>
           <p className="text-center text-muted-foreground mb-12 max-w-3xl mx-auto">
-            Datamız uses a multi-layer data integrity system to ensure organizations receive reliable insights from real people. Verification, participant screening, reputation tracking, proof of fit, and AI-powered response analysis work together to prevent fraudulent or low-quality participation.
+            Datamız uses a multi-layer data integrity system to ensure organizations receive reliable insights from real and relevant participants. Identity verification, participant screening, reputation tracking, proof of fit, targeted participant matching, and AI-powered response analysis work together to prevent fraudulent or low-quality participation.
           </p>
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6 max-w-5xl mx-auto">
             {dataIntegrity.map((item) => (
