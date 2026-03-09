@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 import { Button } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";
-import { ArrowRight, Users, Building2, TrendingUp, Shield, Clock, Target } from "lucide-react";
+import { ArrowRight, Users, Building2, Shield, ClipboardCheck, Puzzle } from "lucide-react";
 import heroBackground from "@/assets/hero-background.jpg";
 import alatLogo from "@/assets/company-logos/alat.png";
 import kapitalBankLogo from "@/assets/company-logos/kapital-bank.png";
@@ -15,24 +15,19 @@ import fourYouCareLogo from "@/assets/company-logos/4youcare.jpg";
 const Home = () => {
   const features = [
     {
-      icon: Users,
-      title: "Quality Contributors",
-      description: "Access verified contributors with detailed demographic profiles across the region",
-    },
-    {
-      icon: Target,
-      title: "Precise Targeting",
-      description: "Target specific demographics, regions, and occupations for your research needs",
-    },
-    {
       icon: Shield,
-      title: "Verified Data",
-      description: "All contributors are KYC verified ensuring authentic and reliable responses",
+      title: "KYC-Verified Contributors",
+      description: "All contributors are identity-verified to ensure real, accountable participants.",
     },
     {
-      icon: Clock,
-      title: "Fast Results",
-      description: "Get quality responses within 24-48 hours from your target audience",
+      icon: ClipboardCheck,
+      title: "Application-Based Participation",
+      description: "Contributors apply before joining, filtering out low-quality and opportunistic users early.",
+    },
+    {
+      icon: Puzzle,
+      title: "Proof of Fit",
+      description: "Companies can request documented proof such as residency, employment history, or credentials.",
     },
   ];
 
@@ -181,14 +176,14 @@ const Home = () => {
         <div className="container">
           <div className="max-w-3xl mx-auto text-center mb-16">
             <h2 className="text-3xl md:text-4xl font-heading font-bold text-foreground mb-4">
-              Why Choose Datamız?
+              Our Core Strengths
             </h2>
             <p className="text-lg text-muted-foreground">
-              Built with local expertise, designed for regional scale.
+              What sets Datamız apart from traditional data collection.
             </p>
           </div>
 
-          <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
+          <div className="grid md:grid-cols-3 gap-8 max-w-5xl mx-auto">
             {features.map((feature) => (
               <Card key={feature.title} className="p-6 hover:shadow-lg transition-shadow duration-300">
                 <div className="flex items-center justify-center w-12 h-12 rounded-lg bg-primary/10 mb-4">
