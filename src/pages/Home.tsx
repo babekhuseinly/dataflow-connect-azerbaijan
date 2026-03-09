@@ -183,7 +183,7 @@ const Home = () => {
             </p>
           </div>
 
-          <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
+          <div className="grid md:grid-cols-3 gap-8 max-w-5xl mx-auto">
             {features.map((feature) => (
               <Card key={feature.title} className="p-6 hover:shadow-lg transition-shadow duration-300">
                 <div className="flex items-center justify-center w-12 h-12 rounded-lg bg-primary/10 mb-4">
