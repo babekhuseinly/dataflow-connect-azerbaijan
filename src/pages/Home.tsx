@@ -13,23 +13,7 @@ import swanLogo from "@/assets/company-logos/swan.png";
 import fourYouCareLogo from "@/assets/company-logos/4youcare.jpg";
 
 const Home = () => {
-  const features = [
-    {
-      icon: Shield,
-      title: "KYC-Verified Contributors",
-      description: "Identity verification using a national ID or passport is required for all contributors to ensure transparency.",
-    },
-    {
-      icon: ClipboardCheck,
-      title: "Application-Based Participation",
-      description: "Contributors apply before joining, filtering out low-quality and opportunistic users early.",
-    },
-    {
-      icon: Puzzle,
-      title: "Proof of Fit",
-      description: "Companies can request documented proof such as residency, employment history, or credentials.",
-    },
-  ];
+
 
   const earlyAdopters = [
     { name: "Alat", logo: alatLogo },
