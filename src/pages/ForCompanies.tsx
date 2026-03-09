@@ -137,7 +137,7 @@ const ForCompanies = () => {
             Access Verified Data Samples
           </h1>
           <p className="text-xl text-muted-foreground mb-8">
-            Collect structured responses from identity-verified participants in your target market.
+            Collect structured responses from participants in your target market.
           </p>
         </div>
 
