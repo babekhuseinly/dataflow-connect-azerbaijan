@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 import { Button } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";
-import { ArrowRight, Users, Building2, UserCheck, ClipboardCheck, Fingerprint } from "lucide-react";
+import { ArrowRight, Users, Building2, Shield, ClipboardCheck, Puzzle } from "lucide-react";
 import heroBackground from "@/assets/hero-background.jpg";
 import alatLogo from "@/assets/company-logos/alat.png";
 import kapitalBankLogo from "@/assets/company-logos/kapital-bank.png";
@@ -15,19 +15,19 @@ import fourYouCareLogo from "@/assets/company-logos/4youcare.jpg";
 const Home = () => {
   const features = [
     {
-      icon: UserCheck,
-      title: "Verified Contributors",
-      description: "All contributors complete identity verification before joining the platform. This ensures responses come from real individuals rather than anonymous or automated accounts.",
+      icon: Shield,
+      title: "KYC-Verified Contributors",
+      description: "Identity verification using a national ID or passport is required for all contributors to ensure transparency.",
     },
     {
       icon: ClipboardCheck,
-      title: "Application & Screening",
-      description: "Participants apply to surveys and interviews, allowing organizations to review and approve contributors who best match their research criteria.",
+      title: "Application-Based Participation",
+      description: "Contributors apply before joining, filtering out low-quality and opportunistic users early.",
     },
     {
-      icon: Fingerprint,
+      icon: Puzzle,
       title: "Proof of Fit",
-      description: "When required, contributors may verify professional, demographic, or contextual information to confirm that they match the research requirements.",
+      description: "Companies can request documented proof such as residency, employment history, or credentials.",
     },
   ];
 
