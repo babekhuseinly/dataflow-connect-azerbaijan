@@ -259,7 +259,7 @@ const ForCompanies = () => {
           </h2>
           <div className="grid md:grid-cols-5 gap-6 max-w-6xl mx-auto">
             {[
-              { step: "1", title: "Sign Up", desc: "Create your company account and provide basic information about the research needs." },
+              { step: "1", title: "Sign Up", desc: "Create the company account and provide your research needs." },
               { step: "2", title: "Define Target", desc: "Set demographic filters to reach the right participants." },
               { step: "3", title: "Create Survey or Interview", desc: "Build your questionnaire or interview guide." },
               { step: "4", title: "Set Budget & Launch", desc: "Define participant compensation and launch your research." },
