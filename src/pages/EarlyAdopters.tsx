@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 import { Button } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";
-import { Building2, TrendingUp, Users, ArrowRight } from "lucide-react";
+import { UserCheck, Layers, GraduationCap, ArrowRight } from "lucide-react";
 import alatLogo from "@/assets/company-logos/alat.png";
 import kapitalBankLogo from "@/assets/company-logos/kapital-bank.png";
 import pashaLifeLogo from "@/assets/company-logos/pasha-life.png";
@@ -101,7 +101,7 @@ const EarlyAdopters = () => {
           <div className="grid md:grid-cols-3 gap-8">
             <div className="text-center">
               <div className="w-16 h-16 rounded-full bg-primary/10 flex items-center justify-center mx-auto mb-4">
-                <Building2 className="h-8 w-8 text-primary" />
+                <UserCheck className="h-8 w-8 text-primary" />
               </div>
               <h3 className="text-lg font-semibold mb-2">Direct Access to Participants</h3>
               <p className="text-sm text-muted-foreground">
@@ -110,16 +110,16 @@ const EarlyAdopters = () => {
             </div>
             <div className="text-center">
               <div className="w-16 h-16 rounded-full bg-primary/10 flex items-center justify-center mx-auto mb-4">
-                <TrendingUp className="h-8 w-8 text-primary" />
+                <Layers className="h-8 w-8 text-primary" />
               </div>
-              <h3 className="text-lg font-semibold mb-2">Quantitative and Qualitative Research</h3>
+              <h3 className="text-lg font-semibold mb-2">Single Platform</h3>
               <p className="text-sm text-muted-foreground">
                 Run surveys and conduct one-to-one interviews in the same platform. Collect measurable data and deeper insights without switching between multiple research tools.
               </p>
             </div>
             <div className="text-center">
               <div className="w-16 h-16 rounded-full bg-primary/10 flex items-center justify-center mx-auto mb-4">
-                <Users className="h-8 w-8 text-primary" />
+                <GraduationCap className="h-8 w-8 text-primary" />
               </div>
               <h3 className="text-lg font-semibold mb-2">SABAH.lab Graduate</h3>
               <p className="text-sm text-muted-foreground">
