@@ -236,6 +236,9 @@ const Home = () => {
             <h2 className="text-3xl md:text-4xl font-heading font-bold text-white">
               Be Part of a New Data Economy
             </h2>
+            <p className="text-xl text-white/90">
+              Built with local expertise, designed for regional scale.
+            </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Button size="lg" asChild className="bg-white text-primary border border-white hover:bg-white/90">
                 <a href="https://dashboard.datamiz.az/signup/" target="_blank" rel="noopener noreferrer">Get Early Access</a>

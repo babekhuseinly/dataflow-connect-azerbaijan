@@ -217,7 +217,7 @@ const ForCompanies = () => {
             Powerful Targeting Filters
           </h2>
           <p className="text-center text-muted-foreground mb-12 max-w-2xl mx-auto">
-            Reach exactly who you need with comprehensive demographic and behavioral filters
+            Reach exactly who you need with comprehensive demographic and behavioral filters.
           </p>
           <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
             {targetingFilters.map((group) => (
