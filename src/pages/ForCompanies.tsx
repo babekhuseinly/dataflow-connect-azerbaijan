@@ -326,7 +326,7 @@ const ForCompanies = () => {
           </p>
           <Button size="lg" asChild className="bg-white text-primary border-white hover:bg-white/90">
             <a href="https://dashboard.datamiz.az/signup/company/" target="_blank" rel="noopener noreferrer">
-              Create a Researcher Account
+              Create a Company Account
             </a>
           </Button>
         </section>
