@@ -11,7 +11,7 @@ const HowItWorks = () => {
       description: "Create your account and fill in your demographics, education, region, and interests. This helps companies find you.",
     },
     {
-      icon: Target,
+      icon: Search,
       title: "Browse Opportunities",
       description: "Explore available surveys and interviews that match your profile. See earnings before you apply.",
     },
