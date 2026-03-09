@@ -105,7 +105,7 @@ const EarlyAdopters = () => {
               </div>
               <h3 className="text-lg font-semibold mb-2">Direct Access to Participants</h3>
               <p className="text-sm text-muted-foreground">
-                Connect directly with verified participants instead of purchasing expensive pre-collected datasets. Launch surveys or interviews and gather insights straight from the source.
+                Connect directly with verified participants instead of purchasing expensive pre-collected datasets. Launch research campaigns and gather insights straight from the source.
               </p>
             </div>
             <div className="text-center">
