@@ -60,7 +60,7 @@ const ForContributors = () => {
     },
     {
       label: "Active Opportunities",
-      value: "5 open",
+      value: "5",
     },
   ];
 
