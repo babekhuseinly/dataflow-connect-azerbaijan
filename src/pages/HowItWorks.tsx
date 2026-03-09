@@ -30,28 +30,28 @@ const HowItWorks = () => {
   const companySteps = [
     {
       icon: UserPlus,
-      title: "Create Company Account",
-      description: "Sign up and complete your company profile. Tell us about your organization and research needs.",
+      title: "Sign Up",
+      description: "Create your company account and provide your research needs.",
     },
     {
       icon: Target,
-      title: "Define Your Target",
-      description: "Set specific demographic filters: age range, region, education, occupation, and more to reach the right audience.",
+      title: "Define Target",
+      description: "Set demographic filters to reach the right participants.",
     },
     {
       icon: FileText,
       title: "Create Survey or Interview",
-      description: "Design your questionnaire or interview guide. Set compensation rates and deadlines.",
+      description: "Build your questionnaire or interview guide.",
     },
     {
       icon: CheckCircle,
-      title: "Review & Approve",
-      description: "Review applications from qualified contributors. Approve participants and monitor responses in real-time.",
+      title: "Launch & Monitor",
+      description: "Launch your campaign while Datamız manages participant screening and response quality checks.",
     },
     {
       icon: TrendingUp,
       title: "Analyze Results",
-      description: "Access completed responses and analytics. Export data in your preferred format for deeper analysis.",
+      description: "Access responses, insights, and export data for further analysis.",
     },
   ];
 
