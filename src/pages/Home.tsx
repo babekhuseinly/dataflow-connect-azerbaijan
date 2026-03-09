@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 import { Button } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";
-import { ArrowRight, Users, Building2, TrendingUp, Shield, Clock, Target } from "lucide-react";
+import { ArrowRight, Users, Building2, Shield, ClipboardCheck, Puzzle } from "lucide-react";
 import heroBackground from "@/assets/hero-background.jpg";
 import alatLogo from "@/assets/company-logos/alat.png";
 import kapitalBankLogo from "@/assets/company-logos/kapital-bank.png";
