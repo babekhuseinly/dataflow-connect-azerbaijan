@@ -15,24 +15,19 @@ import fourYouCareLogo from "@/assets/company-logos/4youcare.jpg";
 const Home = () => {
   const features = [
     {
-      icon: Users,
-      title: "Quality Contributors",
-      description: "Access verified contributors with detailed demographic profiles across the region",
-    },
-    {
-      icon: Target,
-      title: "Precise Targeting",
-      description: "Target specific demographics, regions, and occupations for your research needs",
-    },
-    {
       icon: Shield,
-      title: "Verified Data",
-      description: "All contributors are KYC verified ensuring authentic and reliable responses",
+      title: "KYC-Verified Contributors",
+      description: "All contributors are identity-verified to ensure real, accountable participants.",
     },
     {
-      icon: Clock,
-      title: "Fast Results",
-      description: "Get quality responses within 24-48 hours from your target audience",
+      icon: ClipboardCheck,
+      title: "Application-Based Participation",
+      description: "Contributors apply before joining, filtering out low-quality and opportunistic users early.",
+    },
+    {
+      icon: Puzzle,
+      title: "Proof of Fit",
+      description: "Companies can request documented proof such as residency, employment history, or credentials.",
     },
   ];
 
