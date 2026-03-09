@@ -245,7 +245,7 @@ const ForCompanies = () => {
         {/* How It Works */}
         <section className="mb-20 bg-muted/30 rounded-3xl p-8 md:p-12">
           <h2 className="text-3xl font-heading font-bold text-center text-foreground mb-12">
-            Simple Process, Powerful Results
+            Run Research in Five Simple Steps
           </h2>
           <div className="grid md:grid-cols-5 gap-6 max-w-6xl mx-auto">
             {[

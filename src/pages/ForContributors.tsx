@@ -154,42 +154,19 @@ const ForContributors = () => {
             Getting Started is Easy
           </h2>
           <div className="grid md:grid-cols-4 gap-8 max-w-5xl mx-auto">
-            <div className="text-center">
-              <div className="w-16 h-16 rounded-full bg-primary text-white flex items-center justify-center mx-auto mb-4 text-2xl font-bold">
-                1
+            {[
+              { step: "1", title: "Sign Up" },
+              { step: "2", title: "Apply" },
+              { step: "3", title: "Complete Study" },
+              { step: "4", title: "Get Paid" },
+            ].map((item) => (
+              <div key={item.step} className="text-center">
+                <div className="w-16 h-16 rounded-full bg-primary text-white flex items-center justify-center mx-auto mb-4 text-2xl font-bold">
+                  {item.step}
+                </div>
+                <h3 className="font-semibold">{item.title}</h3>
               </div>
-              <h3 className="font-semibold mb-2">Sign Up</h3>
-              <p className="text-sm text-muted-foreground">
-                Create your account in minutes
-              </p>
-            </div>
-            <div className="text-center">
-              <div className="w-16 h-16 rounded-full bg-primary text-white flex items-center justify-center mx-auto mb-4 text-2xl font-bold">
-                2
-              </div>
-              <h3 className="font-semibold mb-2">Complete Profile</h3>
-              <p className="text-sm text-muted-foreground">
-                Add your details to get matched
-              </p>
-            </div>
-            <div className="text-center">
-              <div className="w-16 h-16 rounded-full bg-primary text-white flex items-center justify-center mx-auto mb-4 text-2xl font-bold">
-                3
-              </div>
-              <h3 className="font-semibold mb-2">Start Earning</h3>
-              <p className="text-sm text-muted-foreground">
-                Apply to surveys and interviews
-              </p>
-            </div>
-            <div className="text-center">
-              <div className="w-16 h-16 rounded-full bg-primary text-white flex items-center justify-center mx-auto mb-4 text-2xl font-bold">
-                4
-              </div>
-              <h3 className="font-semibold mb-2">Get Paid</h3>
-              <p className="text-sm text-muted-foreground">
-                Withdraw your earnings anytime
-              </p>
-            </div>
+            ))}
           </div>
         </section>
 
