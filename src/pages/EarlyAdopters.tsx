@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 import { Button } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";
-import { UserCheck, Layers, GraduationCap, ArrowRight } from "lucide-react";
+import { Handshake, Layers, GraduationCap, ArrowRight } from "lucide-react";
 import alatLogo from "@/assets/company-logos/alat.png";
 import kapitalBankLogo from "@/assets/company-logos/kapital-bank.png";
 import pashaLifeLogo from "@/assets/company-logos/pasha-life.png";
