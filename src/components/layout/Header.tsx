@@ -2,11 +2,14 @@ import { Link, useLocation } from "react-router-dom";
 import { Button } from "@/components/ui/button";
 import { Menu, X, Moon, Sun } from "lucide-react";
 import { useState, useEffect } from "react";
+import { useTranslation } from "react-i18next";
 import logoLight from "@/assets/logo-light.png";
 import logoDark from "@/assets/logo-dark.png";
+import { LanguageSwitcher } from "@/components/LanguageSwitcher";
 
 const Header = () => {
   const location = useLocation();
+  const { t } = useTranslation();
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const [isDark, setIsDark] = useState(() => {
     if (typeof window !== "undefined") {
@@ -59,7 +62,7 @@ const Header = () => {
               isActive("/how-it-works") ? "text-primary" : "text-foreground/80"
             }`}
           >
-            How It Works
+            {t("nav.howItWorks")}
           </Link>
           <Link
             to="/for-contributors"
@@ -67,7 +70,7 @@ const Header = () => {
               isActive("/for-contributors") ? "text-primary" : "text-foreground/80"
             }`}
           >
-            For Contributors
+            {t("nav.forContributors")}
           </Link>
           <Link
             to="/for-companies"
@@ -75,7 +78,7 @@ const Header = () => {
               isActive("/for-companies") ? "text-primary" : "text-foreground/80"
             }`}
           >
-            For Companies
+            {t("nav.forCompanies")}
           </Link>
           <Link
             to="/early-adopters"
@@ -83,11 +86,12 @@ const Header = () => {
               isActive("/early-adopters") ? "text-primary" : "text-foreground/80"
             }`}
           >
-            Early Adopters
+            {t("nav.earlyAdopters")}
           </Link>
         </nav>
 
-        <div className="hidden md:flex items-center space-x-4">
+        <div className="hidden md:flex items-center space-x-2">
+          <LanguageSwitcher />
           <button
             onClick={toggleTheme}
             className="p-2 rounded-lg hover:bg-muted transition-colors"
@@ -96,12 +100,13 @@ const Header = () => {
             {isDark ? <Sun className="h-5 w-5" /> : <Moon className="h-5 w-5" />}
           </button>
           <Button asChild>
-            <a href="https://dashboard.datamiz.az/signup/" target="_blank" rel="noopener noreferrer">Sign In</a>
+            <a href="https://dashboard.datamiz.az/signup/" target="_blank" rel="noopener noreferrer">{t("nav.signIn")}</a>
           </Button>
         </div>
 
         {/* Mobile Menu Button */}
         <div className="md:hidden flex items-center space-x-2">
+          <LanguageSwitcher />
           <button
             onClick={toggleTheme}
             className="p-2 hover:bg-muted rounded-lg"
@@ -124,20 +129,20 @@ const Header = () => {
         <div className="md:hidden border-t border-border bg-background">
           <nav className="container py-4 flex flex-col space-y-3">
             <Link to="/how-it-works" onClick={toggleMenu} className="text-sm font-medium py-2 hover:text-primary">
-              How It Works
+              {t("nav.howItWorks")}
             </Link>
             <Link to="/for-contributors" onClick={toggleMenu} className="text-sm font-medium py-2 hover:text-primary">
-              For Contributors
+              {t("nav.forContributors")}
             </Link>
             <Link to="/for-companies" onClick={toggleMenu} className="text-sm font-medium py-2 hover:text-primary">
-              For Companies
+              {t("nav.forCompanies")}
             </Link>
             <Link to="/early-adopters" onClick={toggleMenu} className="text-sm font-medium py-2 hover:text-primary">
-              Early Adopters
+              {t("nav.earlyAdopters")}
             </Link>
             <div className="pt-4">
               <Button className="w-full" asChild>
-                <a href="https://dashboard.datamiz.az/signup/" target="_blank" rel="noopener noreferrer" onClick={toggleMenu}>Sign In</a>
+                <a href="https://dashboard.datamiz.az/signup/" target="_blank" rel="noopener noreferrer" onClick={toggleMenu}>{t("nav.signIn")}</a>
               </Button>
             </div>
           </nav>

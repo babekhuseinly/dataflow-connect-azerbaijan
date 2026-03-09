@@ -1,0 +1,249 @@
+{
+  "nav": {
+    "howItWorks": "Necə İşləyir",
+    "forContributors": "İştirakçılar üçün",
+    "forCompanies": "Şirkətlər üçün",
+    "earlyAdopters": "İlk İstifadəçilər",
+    "signIn": "Daxil ol"
+  },
+  "footer": {
+    "tagline": "Keyfiyyətli yerli təhlillər üçün iştirakçıları və şirkətləri birləşdiririk.",
+    "platform": "Platforma",
+    "company": "Şirkət",
+    "contact": "Əlaqə",
+    "aboutDatamiz": "Datamız haqqında",
+    "contactUs": "Bizimlə Əlaqə",
+    "termsOfService": "İstifadə Şərtləri",
+    "privacyPolicy": "Məxfilik Siyasəti",
+    "terms": "Şərtlər",
+    "privacy": "Məxfilik",
+    "rights": "Bütün hüquqlar qorunur."
+  },
+  "home": {
+    "hero": {
+      "title": "Tədqiqatınız üçün Düzgün İnsanları Tapın",
+      "subtitle": "Sorğular və müsahibələr üçün təsdiqlənmiş iştirakçılarla əlaqə qurun.",
+      "description": "Tədqiqat və qərar qəbulu üçün etibarlı, hədəflənmiş məlumatlara çıxış əldə edin.",
+      "earnMoney": "Qazanc Əldə Et",
+      "requestData": "Məlumat Sorğusu"
+    },
+    "marketplace": {
+      "title": "İkitərəfli Məlumat Bazarı",
+      "subtitle": "Datamız məlumat təqdim edənləri ehtiyac duyanlarla birləşdirir və hamı üçün dəyər yaradır."
+    },
+    "contributors": {
+      "title": "İştirakçılar üçün",
+      "description": "Sorğular və müsahibələr vasitəsilə fikir paylaşaraq pul qazanın.",
+      "flexible": "Çevik qazanc imkanları",
+      "quickPayments": "Sürətli və təhlükəsiz ödənişlər",
+      "workAnywhere": "İstənilən yerdən işləyin",
+      "learnMore": "Ətraflı Öyrən"
+    },
+    "companies": {
+      "title": "Şirkətlər üçün",
+      "description": "Region boyunca təsdiqlənmiş iştirakçılardan yüksək keyfiyyətli, hədəflənmiş məlumatlara çıxış əldə edin.",
+      "targeting": "Dəqiq demoqrafik hədəfləmə",
+      "verified": "Təsdiqlənmiş, keyfiyyətli cavablar",
+      "fastTurnaround": "Sürətli nəticələr",
+      "learnMore": "Ətraflı Öyrən"
+    },
+    "features": {
+      "title": "Niyə Datamız?",
+      "subtitle": "Yerli ekspertiza ilə qurulmuş, regional miqyas üçün dizayn edilmişdir.",
+      "qualityContributors": {
+        "title": "Keyfiyyətli İştirakçılar",
+        "description": "Region boyunca ətraflı demoqrafik profilləri olan təsdiqlənmiş iştirakçılara çıxış"
+      },
+      "preciseTargeting": {
+        "title": "Dəqiq Hədəfləmə",
+        "description": "Tədqiqat ehtiyaclarınız üçün xüsusi demoqrafiyaları, regionları və peşələri hədəfləyin"
+      },
+      "verifiedData": {
+        "title": "Təsdiqlənmiş Məlumat",
+        "description": "Bütün iştirakçılar KYC təsdiqlənmiş olub, autentik və etibarlı cavablar təmin edir"
+      },
+      "fastResults": {
+        "title": "Sürətli Nəticələr",
+        "description": "Hədəf auditoriyamızdan 24-48 saat ərzində keyfiyyətli cavablar əldə edin"
+      }
+    },
+    "earlyAdopters": {
+      "title": "Gözləmə Siyahımızdakı Şirkətlər",
+      "subtitle": "Datamızı araşdıran bu irəliçəkən şirkətlərə qoşulun."
+    },
+    "cta": {
+      "title": "Yeni Məlumat İqtisadiyyatının Bir Hissəsi Olun",
+      "getEarlyAccess": "Erkən Giriş Əldə Et",
+      "contactUs": "Bizimlə Əlaqə"
+    }
+  },
+  "howItWorks": {
+    "title": "Datamız Necə İşləyir",
+    "description": "Datamız təşkilatları və müstəqil tədqiqatçıları sorğular və təkbətək müsahibələr üçün təsdiqlənmiş iştirakçılarla birləşdirir. Platforma məhsul komandalarına, marketinq komandalarına və tədqiqat peşəkarlarına hədəf auditoriyasına uyğun insanlardan birbaşa etibarlı məlumat, təhlil və ekspertiza toplamaqda kömək edir. İştirakçı axtarışını, yoxlamını və kompensasiyanı bir sistemə gətirməklə, Datamız yüksək keyfiyyətli məlumat toplama prosesini sadə və etibarlı edir.",
+    "forContributors": {
+      "title": "İştirakçılar üçün",
+      "steps": {
+        "signUp": {
+          "title": "Qeydiyyatdan keç və Profili Tamamla",
+          "description": "Hesabınızı yaradın və demoqrafiyalarınızı, təhsilinizi, regionunuzu və maraqlarınızı doldurun. Bu, şirkətlərin sizi tapmasına kömək edir."
+        },
+        "browse": {
+          "title": "İmkanları Araşdır",
+          "description": "Profilinizə uyğun mövcud sorğuları və müsahibələri araşdırın. Müraciət etməzdən əvvəl qazancı görün."
+        },
+        "apply": {
+          "title": "Müraciət et və Tamamla",
+          "description": "Maraq duyduğunuz imkanlara müraciət edin. Təsdiqləndikdən sonra, sorğuları tamamlayın və ya müsahibələrdə iştirak edin."
+        },
+        "getPaid": {
+          "title": "Ödəniş Al",
+          "description": "Ödənişi birbaşa pul kisənizə alın. İstənilən vaxt bank hesabınıza və ya mobil pula çıxarın."
+        }
+      },
+      "learnMore": "Ətraflı Öyrən"
+    },
+    "forCompanies": {
+      "title": "Şirkətlər üçün",
+      "steps": {
+        "createAccount": {
+          "title": "Şirkət Hesabı Yarat",
+          "description": "Qeydiyyatdan keçin və şirkət profilinizi tamamlayın. Təşkilatınız və tədqiqat ehtiyaclarınız haqqında bizə məlumat verin."
+        },
+        "defineTarget": {
+          "title": "Hədəfinizi Müəyyənləşdirin",
+          "description": "Xüsusi demoqrafik filtrləri təyin edin: yaş aralığı, region, təhsil, peşə və düzgün auditoriyaya çatmaq üçün daha çox."
+        },
+        "createSurvey": {
+          "title": "Sorğu və ya Müsahibə Yarat",
+          "description": "Anket və ya müsahibə bələdçinizi dizayn edin. Kompensasiya dərəcələrini və son tarixləri təyin edin."
+        },
+        "review": {
+          "title": "Nəzərdən keçir və Təsdiqlə",
+          "description": "İxtisaslı iştirakçılardan gələn müraciətləri nəzərdən keçirin. İştirakçıları təsdiqləyin və cavabları real vaxtda izləyin."
+        },
+        "analyze": {
+          "title": "Nəticələri Təhlil Et",
+          "description": "Tamamlanmış cavablara və analitikaya çıxış əldə edin. Daha dərin təhlil üçün məlumatı üstünlük verdiyiniz formatda ixrac edin."
+        }
+      },
+      "learnMore": "Ətraflı Öyrən"
+    },
+    "commitment": {
+      "title": "Öhdəliyimiz",
+      "fairCompensation": {
+        "title": "Ədalətli Kompensasiya",
+        "description": "İştirakçılar sorğularda və müsahibələrdə iştirakları və vaxtları üçün rəqabətli dərəcələrlə ödənilir."
+      },
+      "dataQuality": {
+        "title": "Yüksək Məlumat Keyfiyyəti",
+        "description": "Platforma etibarlı cavabları təmin etmək və az səyli iştirakı azaltmaq üçün dizayn edilmişdir."
+      }
+    }
+  },
+  "forContributors": {
+    "title": "Fikir Paylaşaraq Pul Qazanın",
+    "subtitle": "Tədqiqat kampaniyalarında iştirak edərək əlavə gəlir əldə edən minlərlə yerli məlumat sahibinə qoşulun.",
+    "benefits": {
+      "title": "Niyə İştirakçı Olmalı?",
+      "earnIncome": {
+        "title": "Əlavə Gəlir Əldə Et",
+        "description": "Fikir paylaşaraq pul qazanın. Profilinizə uyğun sorğular və müsahibələr üçün rəqabətli dərəcələr qazanın."
+      },
+      "flexible": {
+        "title": "Çevik Cədvəl",
+        "description": "İstədiyiniz zaman, istədiyiniz yerdə işləyin. Əlverişliliyinizə uyğun imkanları seçin."
+      },
+      "secure": {
+        "title": "Təhlükəsiz və Etibarlı",
+        "description": "Məlumatınız qorunur və ödənişlər təmin edilir. Təhlükəsiz və şəffaf bir platforma təmin edirik."
+      },
+      "shape": {
+        "title": "Məhsulları və Xidmətləri Formalaşdırın",
+        "description": "Təhlilləriniz şirkətlərə inkişaf etməkdə olan bazarlar üçün daha yaxşı məhsul və xidmətlər qurmaqda kömək edir."
+      }
+    },
+    "howToEarn": {
+      "title": "Necə Qazana Bilərsiniz",
+      "subtitle": "Müxtəlif vaxt öhdəlikləri və kompensasiyalarla müxtəlif imkan növləri",
+      "profile": {
+        "title": "Profilinizi Tamamlayın",
+        "description": "Demoqrafiyalarınızı, təhsilinizi, peşənizi və maraqlarınızı əlavə edin. Profiliniz nə qədər tam olsa, bir o qədər çox imkan görəcəksiniz.",
+        "amount": "Birdəfəlik quraşdırma"
+      },
+      "surveys": {
+        "title": "Sorğular",
+        "description": "Sürətli sorğulardan ətraflı anketlərə qədər. Kompensasiya hər sorğunun uzunluğuna, mürəkkəbliyinə və digər qabaqcıl faktorlara görə dəyişir.",
+        "amount": "Təqdim başına $0.5–$30"
+      },
+      "interviews": {
+        "title": "Video Müsahibələr",
+        "description": "Tədqiqatçılarla təkbətək və ya qrup video söhbətləri, adətən 15 dəqiqə və ya daha çox.",
+        "amount": "15 dəqiqə üçün $5-dən başlayaraq"
+      }
+    },
+    "eligibility": {
+      "title": "Kim Qoşula Bilər?",
+      "subtitle": "Datamızda iştirakçı olmaq üçün əsas tələblər",
+      "age": "18 yaş və ya daha böyük",
+      "id": "Təsdiqləmə üçün etibarlı dövlət tərəfindən verilmiş şəxsiyyət vəsiqəsi",
+      "contact": "Aktiv mobil nömrə və e-poçt"
+    },
+    "gettingStarted": {
+      "title": "Başlamaq Asandır",
+      "signUp": {
+        "title": "Qeydiyyatdan Keç",
+        "description": "Dəqiqələr ərzində hesabınızı yaradın"
+      },
+      "completeProfile": {
+        "title": "Profili Tamamla",
+        "description": "Uyğunlaşdırılmaq üçün detallarınızı əlavə edin"
+      },
+      "startEarning": {
+        "title": "Qazanmağa Başla",
+        "description": "Sorğulara və müsahibələrə müraciət edin"
+      },
+      "getPaid": {
+        "title": "Ödəniş Al",
+        "description": "İstənilən vaxt qazancınızı çıxarın"
+      }
+    },
+    "faq": {
+      "title": "Ümumi Suallar",
+      "howMuch": {
+        "question": "Nə qədər qazana bilərəm?",
+        "answer": "Qazanc sorğuların növünə və uzunluğuna görə dəyişir. Aktiv iştirakçılar ayda $50–$300+ qazana bilər."
+      },
+      "whenPaid": {
+        "question": "Nə vaxt ödəniş alıram?",
+        "answer": "Ödənişlər sorğunu tamamladıqdan sonra 48 saat ərzində işlənir. $3-ə çatdıqda çıxara bilərsiniz."
+      },
+      "howOften": {
+        "question": "Sorğular nə qədər tez-tez mövcuddur?",
+        "answer": "Bu sizin profilinizə və cari tələbə bağlıdır. Əksər iştirakçılar həftəlik yeni imkanlar görür."
+      },
+      "safe": {
+        "question": "Məlumatım təhlükəsizdirmi?",
+        "answer": "Bəli! Bütün şəxsi məlumatlarınız şifrələnmişdir və heç vaxt razılığınız olmadan şəxsiyyətinizi şirkətlərlə paylaşmırıq."
+      }
+    },
+    "analytics": {
+      "title": "Analitikanız Bir Baxışda",
+      "subtitle": "Real vaxtda qazancınızı, performansınızı və imkanlarınızı izləyin",
+      "totalEarned": "Ümumi Qazanc",
+      "surveysCompleted": "Tamamlanmış Sorğular",
+      "averageRating": "Orta Reytinq",
+      "activeOpportunities": "Aktiv İmkanlar"
+    },
+    "cta": {
+      "title": "Qazanmağa Hazırsınız?",
+      "subtitle": "Yüzlərlə yerli iştirakçıya qoşulun və tezliklə qazanmağa başlayın.",
+      "button": "İştirakçı Hesabı Yarat"
+    }
+  },
+  "forCompanies": {
+    "title": "Təsdiqlənmiş İştirakçılardan Keyfiyyətli Məlumata Çıxış",
+    "subtitle": "Region boyunca real insanlardan hədəflənmiş təhlillər əldə edin. Sürətli, etibarlı və yerli bazarlar üçün qurulmuş.",
+    "learnMore": "Ətraflı Öyrən",
+    "getStarted": "Başla"
+  }
+}

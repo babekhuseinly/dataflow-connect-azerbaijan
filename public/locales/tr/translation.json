@@ -1,0 +1,249 @@
+{
+  "nav": {
+    "howItWorks": "Nasıl Çalışır",
+    "forContributors": "Katılımcılar İçin",
+    "forCompanies": "Şirketler İçin",
+    "earlyAdopters": "İlk Kullanıcılar",
+    "signIn": "Giriş Yap"
+  },
+  "footer": {
+    "tagline": "Kaliteli yerel içgörüler için katılımcıları ve şirketleri birleştiriyoruz.",
+    "platform": "Platform",
+    "company": "Şirket",
+    "contact": "İletişim",
+    "aboutDatamiz": "Datamız Hakkında",
+    "contactUs": "Bize Ulaşın",
+    "termsOfService": "Hizmet Koşulları",
+    "privacyPolicy": "Gizlilik Politikası",
+    "terms": "Koşullar",
+    "privacy": "Gizlilik",
+    "rights": "Tüm hakları saklıdır."
+  },
+  "home": {
+    "hero": {
+      "title": "Araştırmanız İçin Doğru İnsanları Bulun",
+      "subtitle": "Anketler ve görüşmeler için doğrulanmış katılımcılarla bağlantı kurun.",
+      "description": "Araştırma ve karar verme için güvenilir, hedeflenmiş verilere erişin.",
+      "earnMoney": "Para Kazan",
+      "requestData": "Veri Talebi"
+    },
+    "marketplace": {
+      "title": "İki Taraflı Veri Pazarı",
+      "subtitle": "Datamız veri sağlayanları ihtiyaç duyanlarla birleştirerek herkes için değer yaratır."
+    },
+    "contributors": {
+      "title": "Katılımcılar İçin",
+      "description": "Anketler ve görüşmeler yoluyla fikirlerinizi paylaşarak para kazanın.",
+      "flexible": "Esnek kazanç fırsatları",
+      "quickPayments": "Hızlı ve güvenli ödemeler",
+      "workAnywhere": "Her yerden çalışın",
+      "learnMore": "Daha Fazla Bilgi"
+    },
+    "companies": {
+      "title": "Şirketler İçin",
+      "description": "Bölge genelinde doğrulanmış katılımcılardan yüksek kaliteli, hedeflenmiş verilere erişin.",
+      "targeting": "Hassas demografik hedefleme",
+      "verified": "Doğrulanmış, kaliteli yanıtlar",
+      "fastTurnaround": "Hızlı sonuçlar",
+      "learnMore": "Daha Fazla Bilgi"
+    },
+    "features": {
+      "title": "Neden Datamız?",
+      "subtitle": "Yerel uzmanlıkla inşa edilmiş, bölgesel ölçek için tasarlanmıştır.",
+      "qualityContributors": {
+        "title": "Kaliteli Katılımcılar",
+        "description": "Bölge genelinde ayrıntılı demografik profillere sahip doğrulanmış katılımcılara erişim"
+      },
+      "preciseTargeting": {
+        "title": "Hassas Hedefleme",
+        "description": "Araştırma ihtiyaçlarınız için belirli demografileri, bölgeleri ve meslekleri hedefleyin"
+      },
+      "verifiedData": {
+        "title": "Doğrulanmış Veri",
+        "description": "Tüm katılımcılar KYC doğrulamalı olup, özgün ve güvenilir yanıtlar sağlar"
+      },
+      "fastResults": {
+        "title": "Hızlı Sonuçlar",
+        "description": "Hedef kitlenizden 24-48 saat içinde kaliteli yanıtlar alın"
+      }
+    },
+    "earlyAdopters": {
+      "title": "Bekleme Listemiz Bekleme Listemizdeki Şirketler",
+      "subtitle": "Datamız'ı keşfeden bu ileri görüşlü şirketlere katılın."
+    },
+    "cta": {
+      "title": "Yeni Veri Ekonomisinin Bir Parçası Olun",
+      "getEarlyAccess": "Erken Erişim Alın",
+      "contactUs": "Bize Ulaşın"
+    }
+  },
+  "howItWorks": {
+    "title": "Datamız Nasıl Çalışır",
+    "description": "Datamız kuruluşları ve bağımsız araştırmacıları anketler ve bire bir görüşmeler için doğrulanmış katılımcılarla birleştirir. Platform ürün ekiplerine, pazarlama ekiplerine ve araştırma profesyonellerine hedef kitlelerine uyan kişilerden doğrudan güvenilir veri, içgörü ve uzmanlık toplamada yardımcı olur. Katılımcı keşfi, tarama ve tazminatı tek bir sisteme getirerek Datamız yüksek kaliteli veri toplamayı basit ve güvenilir hale getirir.",
+    "forContributors": {
+      "title": "Katılımcılar İçin",
+      "steps": {
+        "signUp": {
+          "title": "Kaydol ve Profili Tamamla",
+          "description": "Hesabınızı oluşturun ve demografik bilgilerinizi, eğitiminizi, bölgenizi ve ilgi alanlarınızı doldurun. Bu şirketlerin sizi bulmasına yardımcı olur."
+        },
+        "browse": {
+          "title": "Fırsatları Keşfet",
+          "description": "Profilinize uygun mevcut anketleri ve görüşmeleri keşfedin. Başvurmadan önce kazancı görün."
+        },
+        "apply": {
+          "title": "Başvur ve Tamamla",
+          "description": "İlgilendiğiniz fırsatlara başvurun. Onaylandıktan sonra anketleri tamamlayın veya görüşmelere katılın."
+        },
+        "getPaid": {
+          "title": "Ödeme Al",
+          "description": "Ödemeyi doğrudan cüzdanınıza alın. İstediğiniz zaman banka hesabınıza veya mobil paraya çekin."
+        }
+      },
+      "learnMore": "Daha Fazla Bilgi"
+    },
+    "forCompanies": {
+      "title": "Şirketler İçin",
+      "steps": {
+        "createAccount": {
+          "title": "Şirket Hesabı Oluştur",
+          "description": "Kaydolun ve şirket profilinizi tamamlayın. Kuruluşunuz ve araştırma ihtiyaçlarınız hakkında bize bilgi verin."
+        },
+        "defineTarget": {
+          "title": "Hedefinizi Tanımlayın",
+          "description": "Belirli demografik filtreleri ayarlayın: yaş aralığı, bölge, eğitim, meslek ve doğru kitleye ulaşmak için daha fazlası."
+        },
+        "createSurvey": {
+          "title": "Anket veya Görüşme Oluştur",
+          "description": "Anket veya görüşme kılavuzunuzu tasarlayın. Tazminat oranlarını ve son tarihleri belirleyin."
+        },
+        "review": {
+          "title": "İncele ve Onayla",
+          "description": "Nitelikli katılımcılardan gelen başvuruları inceleyin. Katılımcıları onaylayın ve yanıtları gerçek zamanlı olarak izleyin."
+        },
+        "analyze": {
+          "title": "Sonuçları Analiz Et",
+          "description": "Tamamlanan yanıtlara ve analizlere erişin. Daha derin analiz için verileri tercih ettiğiniz formatta dışa aktarın."
+        }
+      },
+      "learnMore": "Daha Fazla Bilgi"
+    },
+    "commitment": {
+      "title": "Taahhüdümüz",
+      "fairCompensation": {
+        "title": "Adil Tazminat",
+        "description": "Katılımcılara anket ve görüşmelerdeki katılımları ve zamanları için rekabetçi oranlar ödenir."
+      },
+      "dataQuality": {
+        "title": "Yüksek Veri Kalitesi",
+        "description": "Platform güvenilir yanıtları sağlamak ve düşük çabalı katılımı azaltmak için tasarlanmıştır."
+      }
+    }
+  },
+  "forContributors": {
+    "title": "Fikirlerinizi Paylaşarak Para Kazanın",
+    "subtitle": "Araştırma kampanyalarına katılarak ekstra gelir elde eden binlerce yerel veri sahibine katılın.",
+    "benefits": {
+      "title": "Neden Katılımcı Olmalısınız?",
+      "earnIncome": {
+        "title": "Ekstra Gelir Kazanın",
+        "description": "Fikirlerinizi paylaşarak para kazanın. Profilinize uygun anketler ve görüşmeler için rekabetçi oranlar kazanın."
+      },
+      "flexible": {
+        "title": "Esnek Program",
+        "description": "İstediğiniz zaman, istediğiniz yerde çalışın. Müsaitliğinize uygun fırsatları seçin."
+      },
+      "secure": {
+        "title": "Güvenli ve Güvenilir",
+        "description": "Verileriniz korunur ve ödemeler garantilidir. Güvenli ve şeffaf bir platform sağlıyoruz."
+      },
+      "shape": {
+        "title": "Ürün ve Hizmetleri Şekillendirin",
+        "description": "İçgörüleriniz şirketlerin gelişmekte olan pazarlar için daha iyi ürün ve hizmetler oluşturmasına yardımcı olur."
+      }
+    },
+    "howToEarn": {
+      "title": "Nasıl Kazanabilirsiniz",
+      "subtitle": "Değişen zaman taahhütleri ve tazminatlarla farklı fırsat türleri",
+      "profile": {
+        "title": "Profilinizi Tamamlayın",
+        "description": "Demografik bilgilerinizi, eğitiminizi, mesleğinizi ve ilgi alanlarınızı ekleyin. Profiliniz ne kadar eksiksizse o kadar çok fırsat göreceksiniz.",
+        "amount": "Tek seferlik kurulum"
+      },
+      "surveys": {
+        "title": "Anketler",
+        "description": "Hızlı anketlerden ayrıntılı soru formlarına kadar. Tazminat her anketin uzunluğuna, karmaşıklığına ve diğer ileri faktörlere bağlıdır.",
+        "amount": "Gönderim başına $0.5–$30"
+      },
+      "interviews": {
+        "title": "Video Görüşmeleri",
+        "description": "Araştırmacılarla bire bir veya grup video görüşmeleri, genellikle 15 dakika veya daha uzun.",
+        "amount": "15 dakika başına $5'ten başlayarak"
+      }
+    },
+    "eligibility": {
+      "title": "Kim Katılabilir?",
+      "subtitle": "Datamız'da katılımcı olmak için temel gereksinimler",
+      "age": "18 yaş veya üzeri",
+      "id": "Doğrulama için geçerli devlet tarafından verilmiş kimlik",
+      "contact": "Aktif cep telefonu numarası ve e-posta"
+    },
+    "gettingStarted": {
+      "title": "Başlamak Kolay",
+      "signUp": {
+        "title": "Kaydol",
+        "description": "Dakikalar içinde hesabınızı oluşturun"
+      },
+      "completeProfile": {
+        "title": "Profili Tamamla",
+        "description": "Eşleştirilmek için bilgilerinizi ekleyin"
+      },
+      "startEarning": {
+        "title": "Kazanmaya Başla",
+        "description": "Anketlere ve görüşmelere başvurun"
+      },
+      "getPaid": {
+        "title": "Ödeme Al",
+        "description": "Kazançlarınızı istediğiniz zaman çekin"
+      }
+    },
+    "faq": {
+      "title": "Sık Sorulan Sorular",
+      "howMuch": {
+        "question": "Ne kadar kazanabilirim?",
+        "answer": "Kazançlar anketin türüne ve uzunluğuna göre değişir. Aktif katılımcılar ayda $50–$300+ kazanabilir."
+      },
+      "whenPaid": {
+        "question": "Ne zaman ödeme alırım?",
+        "answer": "Ödemeler anketi tamamladıktan sonra 48 saat içinde işlenir. $3'e ulaştığınızda çekebilirsiniz."
+      },
+      "howOften": {
+        "question": "Anketler ne sıklıkta mevcut?",
+        "answer": "Profilinize ve mevcut talebe bağlıdır. Çoğu katılımcı haftalık yeni fırsatlar görür."
+      },
+      "safe": {
+        "question": "Bilgilerim güvende mi?",
+        "answer": "Evet! Tüm kişisel verileriniz şifrelenmiştir ve izniniz olmadan kimliğinizi şirketlerle asla paylaşmayız."
+      }
+    },
+    "analytics": {
+      "title": "Analizleriniz Bir Bakışta",
+      "subtitle": "Kazançlarınızı, performansınızı ve fırsatlarınızı gerçek zamanlı olarak takip edin",
+      "totalEarned": "Toplam Kazanç",
+      "surveysCompleted": "Tamamlanan Anketler",
+      "averageRating": "Ortalama Puan",
+      "activeOpportunities": "Aktif Fırsatlar"
+    },
+    "cta": {
+      "title": "Kazanmaya Başlamaya Hazır Mısınız?",
+      "subtitle": "Yüzlerce yerel katılımcıya katılın ve kısa sürede kazanmaya başlayın.",
+      "button": "Katılımcı Hesabı Oluştur"
+    }
+  },
+  "forCompanies": {
+    "title": "Doğrulanmış Katılımcılardan Kaliteli Verilere Erişin",
+    "subtitle": "Bölge genelinde gerçek insanlardan hedeflenmiş içgörüler edinin. Hızlı, güvenilir ve yerel pazarlar için tasarlanmıştır.",
+    "learnMore": "Daha Fazla Bilgi",
+    "getStarted": "Başlayın"
+  }
+}

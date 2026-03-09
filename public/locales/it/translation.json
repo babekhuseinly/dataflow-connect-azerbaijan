@@ -1,0 +1,249 @@
+{
+  "nav": {
+    "howItWorks": "Come Funziona",
+    "forContributors": "Per Contributori",
+    "forCompanies": "Per Aziende",
+    "earlyAdopters": "Primi Utenti",
+    "signIn": "Accedi"
+  },
+  "footer": {
+    "tagline": "Connettere contributori e aziende per approfondimenti locali di alta qualità.",
+    "platform": "Piattaforma",
+    "company": "Azienda",
+    "contact": "Contatto",
+    "aboutDatamiz": "Informazioni su Datamız",
+    "contactUs": "Contattaci",
+    "termsOfService": "Termini di Servizio",
+    "privacyPolicy": "Informativa sulla Privacy",
+    "terms": "Termini",
+    "privacy": "Privacy",
+    "rights": "Tutti i diritti riservati."
+  },
+  "home": {
+    "hero": {
+      "title": "Trova le Persone Giuste per la Tua Ricerca",
+      "subtitle": "Connettiti con contributori verificati per sondaggi e interviste.",
+      "description": "Accedi a dati affidabili e mirati per ricerche e decisioni.",
+      "earnMoney": "Guadagna Denaro",
+      "requestData": "Richiedi Dati"
+    },
+    "marketplace": {
+      "title": "Un Mercato Dati Bilaterale",
+      "subtitle": "Datamız connette chi fornisce dati con chi ne ha bisogno, creando valore per tutti."
+    },
+    "contributors": {
+      "title": "Per Contributori",
+      "description": "Guadagna denaro condividendo le tue opinioni attraverso sondaggi e interviste.",
+      "flexible": "Opportunità di guadagno flessibili",
+      "quickPayments": "Pagamenti rapidi e sicuri",
+      "workAnywhere": "Lavora da qualsiasi luogo",
+      "learnMore": "Scopri di Più"
+    },
+    "companies": {
+      "title": "Per Aziende",
+      "description": "Accedi a dati mirati e di alta qualità da contributori verificati in tutta la regione.",
+      "targeting": "Targeting demografico preciso",
+      "verified": "Risposte verificate e di qualità",
+      "fastTurnaround": "Risultati rapidi",
+      "learnMore": "Scopri di Più"
+    },
+    "features": {
+      "title": "Perché Scegliere Datamız?",
+      "subtitle": "Costruito con competenza locale, progettato per la scala regionale.",
+      "qualityContributors": {
+        "title": "Contributori di Qualità",
+        "description": "Accesso a contributori verificati con profili demografici dettagliati in tutta la regione"
+      },
+      "preciseTargeting": {
+        "title": "Targeting Preciso",
+        "description": "Mira a demografici specifici, regioni e occupazioni per le tue esigenze di ricerca"
+      },
+      "verifiedData": {
+        "title": "Dati Verificati",
+        "description": "Tutti i contributori sono verificati KYC garantendo risposte autentiche e affidabili"
+      },
+      "fastResults": {
+        "title": "Risultati Veloci",
+        "description": "Ottieni risposte di qualità entro 24-48 ore dal tuo pubblico target"
+      }
+    },
+    "earlyAdopters": {
+      "title": "Aziende nella Nostra Lista d'Attesa",
+      "subtitle": "Unisciti a queste aziende lungimiranti che esplorano Datamız."
+    },
+    "cta": {
+      "title": "Diventa Parte di una Nuova Economia dei Dati",
+      "getEarlyAccess": "Ottieni Accesso Anticipato",
+      "contactUs": "Contattaci"
+    }
+  },
+  "howItWorks": {
+    "title": "Come Funziona Datamız",
+    "description": "Datamız connette organizzazioni e ricercatori indipendenti con contributori verificati per sondaggi e interviste individuali. La piattaforma aiuta i team di prodotto, i team di marketing e i professionisti della ricerca a raccogliere dati affidabili, approfondimenti ed esperienza direttamente da persone che corrispondono al loro pubblico target. Portando scoperta dei partecipanti, screening e compensazione in un unico sistema, Datamız rende la raccolta dati di alta qualità semplice e affidabile.",
+    "forContributors": {
+      "title": "Per Contributori",
+      "steps": {
+        "signUp": {
+          "title": "Registrati e Completa il Profilo",
+          "description": "Crea il tuo account e compila i tuoi dati demografici, istruzione, regione e interessi. Questo aiuta le aziende a trovarti."
+        },
+        "browse": {
+          "title": "Sfoglia le Opportunità",
+          "description": "Esplora sondaggi e interviste disponibili che corrispondono al tuo profilo. Vedi i guadagni prima di candidarti."
+        },
+        "apply": {
+          "title": "Candidati e Completa",
+          "description": "Candidati alle opportunità che ti interessano. Una volta approvato, completa i sondaggi o partecipa alle interviste."
+        },
+        "getPaid": {
+          "title": "Ricevi il Pagamento",
+          "description": "Ricevi i pagamenti direttamente sul tuo portafoglio. Preleva sul tuo conto bancario o mobile money in qualsiasi momento."
+        }
+      },
+      "learnMore": "Scopri di Più"
+    },
+    "forCompanies": {
+      "title": "Per Aziende",
+      "steps": {
+        "createAccount": {
+          "title": "Crea Account Aziendale",
+          "description": "Registrati e completa il profilo della tua azienda. Raccontaci della tua organizzazione e delle tue esigenze di ricerca."
+        },
+        "defineTarget": {
+          "title": "Definisci il Tuo Target",
+          "description": "Imposta filtri demografici specifici: fascia d'età, regione, istruzione, occupazione e altro per raggiungere il pubblico giusto."
+        },
+        "createSurvey": {
+          "title": "Crea Sondaggio o Intervista",
+          "description": "Progetta il tuo questionario o guida all'intervista. Imposta tassi di compensazione e scadenze."
+        },
+        "review": {
+          "title": "Rivedi e Approva",
+          "description": "Rivedi le candidature di contributori qualificati. Approva i partecipanti e monitora le risposte in tempo reale."
+        },
+        "analyze": {
+          "title": "Analizza i Risultati",
+          "description": "Accedi alle risposte completate e alle analisi. Esporta i dati nel formato preferito per un'analisi più approfondita."
+        }
+      },
+      "learnMore": "Scopri di Più"
+    },
+    "commitment": {
+      "title": "Il Nostro Impegno",
+      "fairCompensation": {
+        "title": "Compensazione Equa",
+        "description": "I contributori vengono pagati con tariffe competitive per il loro tempo e la partecipazione a sondaggi e interviste."
+      },
+      "dataQuality": {
+        "title": "Alta Qualità dei Dati",
+        "description": "La piattaforma è progettata per garantire risposte affidabili e ridurre la partecipazione a basso impegno."
+      }
+    }
+  },
+  "forContributors": {
+    "title": "Guadagna Denaro Condividendo le Tue Opinioni",
+    "subtitle": "Unisciti a migliaia di proprietari di dati locali che guadagnano reddito extra partecipando a campagne di ricerca.",
+    "benefits": {
+      "title": "Perché Diventare un Contributore?",
+      "earnIncome": {
+        "title": "Guadagna Reddito Extra",
+        "description": "Vieni pagato per condividere le tue opinioni. Guadagna tariffe competitive per sondaggi e interviste che corrispondono al tuo profilo."
+      },
+      "flexible": {
+        "title": "Orario Flessibile",
+        "description": "Lavora quando vuoi, dove vuoi. Scegli opportunità che si adattano alla tua disponibilità."
+      },
+      "secure": {
+        "title": "Sicuro e Affidabile",
+        "description": "I tuoi dati sono protetti e i pagamenti sono garantiti. Garantiamo una piattaforma sicura e trasparente."
+      },
+      "shape": {
+        "title": "Modella Prodotti e Servizi",
+        "description": "Le tue intuizioni aiutano le aziende a costruire prodotti e servizi migliori per i mercati emergenti."
+      }
+    },
+    "howToEarn": {
+      "title": "Come Puoi Guadagnare",
+      "subtitle": "Diversi tipi di opportunità con impegni di tempo e compensazioni variabili",
+      "profile": {
+        "title": "Completa il Tuo Profilo",
+        "description": "Aggiungi i tuoi dati demografici, istruzione, occupazione e interessi. Più completo è il tuo profilo, più opportunità vedrai.",
+        "amount": "Configurazione una tantum"
+      },
+      "surveys": {
+        "title": "Sondaggi",
+        "description": "Da sondaggi rapidi a questionari dettagliati. La compensazione dipende dalla lunghezza, complessità e altri fattori avanzati di ciascun sondaggio.",
+        "amount": "$0.5–$30 per invio"
+      },
+      "interviews": {
+        "title": "Interviste Video",
+        "description": "Conversazioni video individuali o di gruppo con ricercatori, di solito 15 minuti o più.",
+        "amount": "Da $5 per 15 minuti"
+      }
+    },
+    "eligibility": {
+      "title": "Chi Può Unirsi?",
+      "subtitle": "Requisiti di base per diventare un contributore su Datamız",
+      "age": "18 anni o più",
+      "id": "Documento d'identità valido rilasciato dal governo per la verifica",
+      "contact": "Numero di telefono cellulare attivo ed email"
+    },
+    "gettingStarted": {
+      "title": "Iniziare è Facile",
+      "signUp": {
+        "title": "Registrati",
+        "description": "Crea il tuo account in pochi minuti"
+      },
+      "completeProfile": {
+        "title": "Completa il Profilo",
+        "description": "Aggiungi i tuoi dettagli per essere abbinato"
+      },
+      "startEarning": {
+        "title": "Inizia a Guadagnare",
+        "description": "Candidati a sondaggi e interviste"
+      },
+      "getPaid": {
+        "title": "Ricevi il Pagamento",
+        "description": "Preleva i tuoi guadagni in qualsiasi momento"
+      }
+    },
+    "faq": {
+      "title": "Domande Frequenti",
+      "howMuch": {
+        "question": "Quanto posso guadagnare?",
+        "answer": "I guadagni variano in base al tipo e alla lunghezza dei sondaggi. I contributori attivi possono guadagnare $50–$300+ al mese."
+      },
+      "whenPaid": {
+        "question": "Quando ricevo il pagamento?",
+        "answer": "I pagamenti vengono elaborati entro 48 ore dal completamento di un sondaggio. Puoi prelevare una volta raggiunto i $3."
+      },
+      "howOften": {
+        "question": "Quanto spesso sono disponibili i sondaggi?",
+        "answer": "Dipende dal tuo profilo e dalla domanda attuale. La maggior parte dei contributori vede nuove opportunità settimanalmente."
+      },
+      "safe": {
+        "question": "Le mie informazioni sono sicure?",
+        "answer": "Sì! Tutti i tuoi dati personali sono crittografati e non condividiamo mai la tua identità con le aziende senza consenso."
+      }
+    },
+    "analytics": {
+      "title": "Le Tue Analitiche a Colpo d'Occhio",
+      "subtitle": "Traccia i tuoi guadagni, prestazioni e opportunità in tempo reale",
+      "totalEarned": "Totale Guadagnato",
+      "surveysCompleted": "Sondaggi Completati",
+      "averageRating": "Valutazione Media",
+      "activeOpportunities": "Opportunità Attive"
+    },
+    "cta": {
+      "title": "Pronto a Iniziare a Guadagnare?",
+      "subtitle": "Unisciti a centinaia di contributori locali e inizia a guadagnare a breve.",
+      "button": "Crea un Account Contributore"
+    }
+  },
+  "forCompanies": {
+    "title": "Accedi a Dati di Qualità da Contributori Verificati",
+    "subtitle": "Ottieni informazioni mirate da persone reali in tutta la regione. Veloce, affidabile e progettato per i mercati locali.",
+    "learnMore": "Scopri di Più",
+    "getStarted": "Inizia"
+  }
+}

@@ -2,6 +2,7 @@ import { Link } from "react-router-dom";
 import { Button } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";
 import { ArrowRight, Users, Building2, TrendingUp, Shield, Clock, Target } from "lucide-react";
+import { useTranslation } from "react-i18next";
 import heroBackground from "@/assets/hero-background.jpg";
 import alatLogo from "@/assets/company-logos/alat.png";
 import kapitalBankLogo from "@/assets/company-logos/kapital-bank.png";
@@ -13,27 +14,13 @@ import swanLogo from "@/assets/company-logos/swan.png";
 import fourYouCareLogo from "@/assets/company-logos/4youcare.jpg";
 
 const Home = () => {
+  const { t } = useTranslation();
+
   const features = [
-    {
-      icon: Users,
-      title: "Quality Contributors",
-      description: "Access verified contributors with detailed demographic profiles across the region",
-    },
-    {
-      icon: Target,
-      title: "Precise Targeting",
-      description: "Target specific demographics, regions, and occupations for your research needs",
-    },
-    {
-      icon: Shield,
-      title: "Verified Data",
-      description: "All contributors are KYC verified ensuring authentic and reliable responses",
-    },
-    {
-      icon: Clock,
-      title: "Fast Results",
-      description: "Get quality responses within 24-48 hours from your target audience",
-    },
+    { icon: Users, title: t("home.features.qualityContributors.title"), description: t("home.features.qualityContributors.description") },
+    { icon: Target, title: t("home.features.preciseTargeting.title"), description: t("home.features.preciseTargeting.description") },
+    { icon: Shield, title: t("home.features.verifiedData.title"), description: t("home.features.verifiedData.description") },
+    { icon: Clock, title: t("home.features.fastResults.title"), description: t("home.features.fastResults.description") },
   ];
 
   const earlyAdopters = [
@@ -61,23 +48,23 @@ const Home = () => {
         <div className="container relative z-10">
           <div className="max-w-3xl mx-auto text-center space-y-8">
             <h1 className="text-4xl md:text-6xl font-heading font-bold text-white leading-relaxed">
-              Find the Right People for Your Research
+              {t("home.hero.title")}
             </h1>
             <p className="text-xl md:text-2xl text-white/90">
-              Connect with verified contributors for surveys and interviews.
+              {t("home.hero.subtitle")}
               <br />
-              Access reliable, targeted data for research and decision-making.
+              {t("home.hero.description")}
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Button size="lg" asChild className="text-lg px-8">
                 <Link to="/for-contributors">
-                  Earn Money
+                  {t("home.hero.earnMoney")}
                   <ArrowRight className="ml-2 h-5 w-5" />
                 </Link>
               </Button>
               <Button size="lg" variant="outline" asChild className="text-lg px-8 bg-white/10 border-white text-white hover:bg-white/20">
                 <Link to="/for-companies">
-                  Request Data
+                  {t("home.hero.requestData")}
                   <ArrowRight className="ml-2 h-5 w-5" />
                 </Link>
               </Button>
@@ -91,83 +78,57 @@ const Home = () => {
         <div className="container">
           <div className="max-w-3xl mx-auto text-center mb-16">
             <h2 className="text-3xl md:text-4xl font-heading font-bold text-foreground mb-4">
-              A Two-Sided Data Marketplace
+              {t("home.marketplace.title")}
             </h2>
             <p className="text-lg text-muted-foreground">
-              Datamız connects those who provide data with those who need it,<br />creating value for everyone.
+              {t("home.marketplace.subtitle")}
             </p>
           </div>
 
           <div className="grid md:grid-cols-2 gap-8 max-w-5xl mx-auto">
-            {/* For Contributors */}
             <Card className="p-8 border-2 hover:border-primary transition-all duration-300 hover:shadow-lg">
               <div className="flex items-center justify-center w-16 h-16 rounded-full bg-primary/10 mb-6">
                 <Users className="h-8 w-8 text-primary" />
               </div>
-              <h3 className="text-2xl font-heading font-semibold mb-4">For Contributors</h3>
-              <p className="text-muted-foreground mb-6">
-                Earn money by sharing your opinions through surveys and interviews.
-              </p>
+              <h3 className="text-2xl font-heading font-semibold mb-4">{t("home.contributors.title")}</h3>
+              <p className="text-muted-foreground mb-6">{t("home.contributors.description")}</p>
               <ul className="space-y-3 mb-6">
-                <li className="flex items-start">
-                  <div className="h-6 w-6 rounded-full bg-primary/20 flex items-center justify-center mr-3 mt-0.5 flex-shrink-0">
-                    <div className="h-2 w-2 rounded-full bg-primary" />
-                  </div>
-                  <span className="text-sm">Flexible earning opportunities</span>
-                </li>
-                <li className="flex items-start">
-                  <div className="h-6 w-6 rounded-full bg-primary/20 flex items-center justify-center mr-3 mt-0.5 flex-shrink-0">
-                    <div className="h-2 w-2 rounded-full bg-primary" />
-                  </div>
-                  <span className="text-sm">Quick and secure payments</span>
-                </li>
-                <li className="flex items-start">
-                  <div className="h-6 w-6 rounded-full bg-primary/20 flex items-center justify-center mr-3 mt-0.5 flex-shrink-0">
-                    <div className="h-2 w-2 rounded-full bg-primary" />
-                  </div>
-                  <span className="text-sm">Work from anywhere</span>
-                </li>
+                {[t("home.contributors.flexible"), t("home.contributors.quickPayments"), t("home.contributors.workAnywhere")].map((item) => (
+                  <li key={item} className="flex items-start">
+                    <div className="h-6 w-6 rounded-full bg-primary/20 flex items-center justify-center mr-3 mt-0.5 flex-shrink-0">
+                      <div className="h-2 w-2 rounded-full bg-primary" />
+                    </div>
+                    <span className="text-sm">{item}</span>
+                  </li>
+                ))}
               </ul>
               <Button className="w-full" asChild>
                 <Link to="/for-contributors">
-                  Learn More
+                  {t("home.contributors.learnMore")}
                   <ArrowRight className="ml-2 h-4 w-4" />
                 </Link>
               </Button>
             </Card>
 
-            {/* For Companies */}
             <Card className="p-8 border-2 hover:border-primary transition-all duration-300 hover:shadow-lg">
               <div className="flex items-center justify-center w-16 h-16 rounded-full bg-primary/10 mb-6">
                 <Building2 className="h-8 w-8 text-primary" />
               </div>
-              <h3 className="text-2xl font-heading font-semibold mb-4">For Companies</h3>
-              <p className="text-muted-foreground mb-6">
-                Access high-quality, targeted data from verified contributors across the region.
-              </p>
+              <h3 className="text-2xl font-heading font-semibold mb-4">{t("home.companies.title")}</h3>
+              <p className="text-muted-foreground mb-6">{t("home.companies.description")}</p>
               <ul className="space-y-3 mb-6">
-                <li className="flex items-start">
-                  <div className="h-6 w-6 rounded-full bg-primary/20 flex items-center justify-center mr-3 mt-0.5 flex-shrink-0">
-                    <div className="h-2 w-2 rounded-full bg-primary" />
-                  </div>
-                  <span className="text-sm">Precise demographic targeting</span>
-                </li>
-                <li className="flex items-start">
-                  <div className="h-6 w-6 rounded-full bg-primary/20 flex items-center justify-center mr-3 mt-0.5 flex-shrink-0">
-                    <div className="h-2 w-2 rounded-full bg-primary" />
-                  </div>
-                  <span className="text-sm">Verified, quality responses</span>
-                </li>
-                <li className="flex items-start">
-                  <div className="h-6 w-6 rounded-full bg-primary/20 flex items-center justify-center mr-3 mt-0.5 flex-shrink-0">
-                    <div className="h-2 w-2 rounded-full bg-primary" />
-                  </div>
-                  <span className="text-sm">Fast turnaround times</span>
-                </li>
+                {[t("home.companies.targeting"), t("home.companies.verified"), t("home.companies.fastTurnaround")].map((item) => (
+                  <li key={item} className="flex items-start">
+                    <div className="h-6 w-6 rounded-full bg-primary/20 flex items-center justify-center mr-3 mt-0.5 flex-shrink-0">
+                      <div className="h-2 w-2 rounded-full bg-primary" />
+                    </div>
+                    <span className="text-sm">{item}</span>
+                  </li>
+                ))}
               </ul>
               <Button className="w-full" asChild>
                 <Link to="/for-companies">
-                  Learn More
+                  {t("home.companies.learnMore")}
                   <ArrowRight className="ml-2 h-4 w-4" />
                 </Link>
               </Button>
@@ -181,13 +142,12 @@ const Home = () => {
         <div className="container">
           <div className="max-w-3xl mx-auto text-center mb-16">
             <h2 className="text-3xl md:text-4xl font-heading font-bold text-foreground mb-4">
-              Why Choose Datamız?
+              {t("home.features.title")}
             </h2>
             <p className="text-lg text-muted-foreground">
-              Built with local expertise, designed for regional scale.
+              {t("home.features.subtitle")}
             </p>
           </div>
-
           <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
             {features.map((feature) => (
               <Card key={feature.title} className="p-6 hover:shadow-lg transition-shadow duration-300">
@@ -207,21 +167,17 @@ const Home = () => {
         <div className="container">
           <div className="max-w-3xl mx-auto text-center mb-12">
             <h2 className="text-3xl md:text-4xl font-heading font-bold text-foreground mb-4">
-              Companies on Our Waitlist
+              {t("home.earlyAdopters.title")}
             </h2>
             <p className="text-lg text-muted-foreground">
-              Join these forward-thinking companies exploring Datamız.
+              {t("home.earlyAdopters.subtitle")}
             </p>
           </div>
         </div>
-
         <div className="relative w-full">
           <div className="flex animate-scroll-left w-max">
             {[...earlyAdopters, ...earlyAdopters].map((adopter, index) => (
-              <div
-                key={`${adopter.name}-${index}`}
-                className="flex-shrink-0 mx-4"
-              >
+              <div key={`${adopter.name}-${index}`} className="flex-shrink-0 mx-4">
                 <Card className="p-6 flex flex-col items-center justify-center text-center min-h-[140px] w-[180px] bg-muted/30">
                   <div className="h-16 mb-3 flex items-center justify-center">
                     <img src={adopter.logo} alt={adopter.name} className="max-h-12 max-w-full object-contain" />
@@ -239,14 +195,14 @@ const Home = () => {
         <div className="container">
           <div className="max-w-3xl mx-auto text-center space-y-6">
             <h2 className="text-3xl md:text-4xl font-heading font-bold text-white">
-              Be Part of a New Data Economy
+              {t("home.cta.title")}
             </h2>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Button size="lg" asChild className="bg-white text-primary border border-white hover:bg-white/90">
-                <a href="https://dashboard.datamiz.az/signup/" target="_blank" rel="noopener noreferrer">Get Early Access</a>
+                <a href="https://dashboard.datamiz.az/signup/" target="_blank" rel="noopener noreferrer">{t("home.cta.getEarlyAccess")}</a>
               </Button>
               <Button size="lg" asChild className="bg-white text-primary border border-white hover:bg-white/90">
-                <Link to="/contact">Contact Us</Link>
+                <Link to="/contact">{t("home.cta.contactUs")}</Link>
               </Button>
             </div>
           </div>
