@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 import { Button } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";
-import { UserPlus, FileText, Target, TrendingUp, Building2, CheckCircle, DollarSign, ArrowRight, Star } from "lucide-react";
+import { UserPlus, FileText, Target, TrendingUp, Building2, CheckCircle, DollarSign, ArrowRight, Star, Search } from "lucide-react";
 
 const HowItWorks = () => {
   const contributorSteps = [
@@ -11,7 +11,7 @@ const HowItWorks = () => {
       description: "Create your account and fill in your demographics, education, region, and interests. This helps companies find you.",
     },
     {
-      icon: Target,
+      icon: Search,
       title: "Browse Opportunities",
       description: "Explore available surveys and interviews that match your profile. See earnings before you apply.",
     },
