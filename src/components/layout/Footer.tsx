@@ -33,7 +33,7 @@ const Footer = () => {
 
           {/* Platform */}
           <div>
-            <h3 className="font-semibold mb-4 text-foreground">Platform</h3>
+            <h3 className="font-semibold mb-4 text-foreground">Web Pages</h3>
             <ul className="space-y-2">
               <li>
                 <Link to="/how-it-works" className="text-sm text-muted-foreground hover:text-primary transition-colors">
