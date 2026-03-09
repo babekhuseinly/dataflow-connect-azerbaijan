@@ -171,31 +171,7 @@ const Home = () => {
         </div>
       </section>
 
-      {/* Features Section */}
-      <section className="py-20 bg-muted/30">
-        <div className="container">
-          <div className="max-w-3xl mx-auto text-center mb-16">
-            <h2 className="text-3xl md:text-4xl font-heading font-bold text-foreground mb-4">
-              Our Core Strengths
-            </h2>
-            <p className="text-lg text-muted-foreground">
-              What sets Datamız apart from traditional data collection.
-            </p>
-          </div>
 
-          <div className="grid md:grid-cols-3 gap-8 max-w-5xl mx-auto">
-            {features.map((feature) => (
-              <Card key={feature.title} className="p-6 hover:shadow-lg transition-shadow duration-300">
-                <div className="flex items-center justify-center w-12 h-12 rounded-lg bg-primary/10 mb-4">
-                  <feature.icon className="h-6 w-6 text-primary" />
-                </div>
-                <h3 className="text-lg font-semibold mb-2">{feature.title}</h3>
-                <p className="text-sm text-muted-foreground">{feature.description}</p>
-              </Card>
-            ))}
-          </div>
-        </div>
-      </section>
 
       {/* Early Adopters Section */}
       <section className="py-20 bg-background overflow-hidden">
