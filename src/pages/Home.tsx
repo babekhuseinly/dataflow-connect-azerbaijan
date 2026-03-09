@@ -176,10 +176,10 @@ const Home = () => {
         <div className="container">
           <div className="max-w-3xl mx-auto text-center mb-16">
             <h2 className="text-3xl md:text-4xl font-heading font-bold text-foreground mb-4">
-              Why Choose Datamız?
+              Our Core Strengths
             </h2>
             <p className="text-lg text-muted-foreground">
-              Built with local expertise, designed for regional scale.
+              What sets Datamız apart from traditional data collection.
             </p>
           </div>
 
