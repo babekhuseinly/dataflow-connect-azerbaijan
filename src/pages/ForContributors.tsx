@@ -209,7 +209,7 @@ const ForContributors = () => {
             Your Analytics at a Glance
           </h2>
           <p className="text-center text-muted-foreground mb-12 max-w-2xl mx-auto">
-            Track your earnings, performance, and opportunities in real-time
+            Track your earnings, performance, and opportunities in real-time.
           </p>
           <div className="grid md:grid-cols-4 gap-6 max-w-4xl mx-auto">
             {analyticsStats.map((stat) => (
