@@ -40,7 +40,7 @@ const HowItWorks = () => {
     },
     {
       icon: FileText,
-      title: "Create Survey or Schedule Interview",
+      title: "Create Campaign",
       description: "Build your questionnaire or schedule a one-to-one interview.",
     },
     {

@@ -251,7 +251,7 @@ const ForCompanies = () => {
             {[
               { step: "1", title: "Create Company Account" },
               { step: "2", title: "Define Your Target" },
-              { step: "3", title: "Create Survey or Schedule Interview" },
+              { step: "3", title: "Create Survey or Interview" },
               { step: "4", title: "Launch & Monitor" },
               { step: "5", title: "Analyze Results" },
             ].map((item) => (
@@ -326,7 +326,7 @@ const ForCompanies = () => {
           </p>
           <Button size="lg" asChild className="bg-white text-primary border-white hover:bg-white/90">
             <a href="https://dashboard.datamiz.az/signup/company/" target="_blank" rel="noopener noreferrer">
-              Create a Researcher Account
+              Create a Company Account
             </a>
           </Button>
         </section>
