@@ -17,7 +17,7 @@ const Home = () => {
     {
       icon: Shield,
       title: "KYC-Verified Contributors",
-      description: "All contributors are identity-verified to ensure real, accountable participants.",
+      description: "All contributors complete identity verification using a national ID or passport, ensuring real and accountable participants.",
     },
     {
       icon: ClipboardCheck,
