@@ -116,19 +116,9 @@ const Footer = () => {
         </div>
 
         <div className="mt-12 pt-8 border-t border-border">
-          <div className="flex flex-col md:flex-row justify-between items-center space-y-4 md:space-y-0">
-            <p className="text-sm text-muted-foreground">
-              © {new Date().getFullYear()} Datamız. All rights reserved.
-            </p>
-            <div className="flex space-x-6">
-              <Link to="/terms" className="text-sm text-muted-foreground hover:text-primary transition-colors">
-                Terms
-              </Link>
-              <Link to="/privacy" className="text-sm text-muted-foreground hover:text-primary transition-colors">
-                Privacy
-              </Link>
-            </div>
-          </div>
+          <p className="text-sm text-muted-foreground text-center md:text-left">
+            © {new Date().getFullYear()} Datamız. All rights reserved.
+          </p>
         </div>
       </div>
     </footer>
