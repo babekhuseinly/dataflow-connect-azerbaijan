@@ -80,6 +80,11 @@ const ForCompanies = () => {
       title: "AI Response Quality Control",
       description: "Automated systems detect low-effort responses, inconsistencies, and suspicious activity to maintain high-quality research data.",
     },
+    {
+      icon: Target,
+      title: "Targeted Participant Matching",
+      description: "Participants are matched based on relevant demographics, location, profession, and interests to ensure responses come from the right audience for your research.",
+    },
   ];
 
   const targetingFilters = [
