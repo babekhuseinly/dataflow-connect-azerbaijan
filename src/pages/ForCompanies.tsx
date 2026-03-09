@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 import { Button } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";
-import { Target, Shield, TrendingUp, Clock, CheckCircle, XCircle, ArrowRight, UserCheck, ClipboardCheck, Star, Fingerprint, Bot } from "lucide-react";
+import { Target, Shield, TrendingUp, Clock, CheckCircle, XCircle, ArrowRight, ClipboardCheck, Star, Puzzle, Bot } from "lucide-react";
 
 const ForCompanies = () => {
   const painPoints = [
