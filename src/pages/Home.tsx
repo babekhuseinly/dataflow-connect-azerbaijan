@@ -17,7 +17,7 @@ const Home = () => {
     {
       icon: Shield,
       title: "KYC-Verified Contributors",
-      description: "Identity verification using a national ID or passport is required for all contributors.",
+      description: "Identity verification using a national ID or passport is required for all contributors to ensure transparency.",
     },
     {
       icon: ClipboardCheck,
