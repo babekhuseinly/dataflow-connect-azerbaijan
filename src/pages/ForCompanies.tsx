@@ -172,23 +172,6 @@ const ForCompanies = () => {
           </div>
         </section>
 
-        {/* Benefits */}
-        <section className="mb-20 bg-muted/30 rounded-3xl p-8 md:p-12">
-          <h2 className="text-3xl font-heading font-bold text-center text-foreground mb-12">
-            Why Choose Datamız?
-          </h2>
-          <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
-            {benefits.map((benefit) => (
-              <Card key={benefit.title} className="p-6 hover:shadow-lg transition-shadow duration-300 bg-background">
-                <div className="flex items-center justify-center w-12 h-12 rounded-lg bg-primary/10 mb-4">
-                  <benefit.icon className="h-6 w-6 text-primary" />
-                </div>
-                <h3 className="text-lg font-semibold mb-2">{benefit.title}</h3>
-                <p className="text-sm text-muted-foreground">{benefit.description}</p>
-              </Card>
-            ))}
-          </div>
-        </section>
 
         {/* Data Integrity System */}
         <section className="mb-20">
