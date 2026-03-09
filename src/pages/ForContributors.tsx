@@ -36,7 +36,7 @@ const ForContributors = () => {
     {
       title: "Surveys",
       description: "From quick polls to detailed questionnaires. Compensation depends on the length, complexity, and other advanced factors of each survey.",
-      amount: "$0.5–$30 per submission",
+      amount: "$0.5 – $30 per submission",
     },
     {
       title: "Video Interviews",
