@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 import { Button } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";
-import { Target, Shield, TrendingUp, Clock, CheckCircle, XCircle, ArrowRight, UserCheck, ClipboardCheck, Star, Fingerprint, Bot } from "lucide-react";
+import { Target, Shield, TrendingUp, Clock, CheckCircle, XCircle, ArrowRight, ClipboardCheck, Star, Puzzle, Bot } from "lucide-react";
 
 const ForCompanies = () => {
   const painPoints = [
@@ -56,14 +56,14 @@ const ForCompanies = () => {
 
   const dataIntegrity = [
     {
-      icon: UserCheck,
-      title: "Verified Contributors",
-      description: "All contributors complete identity verification before joining the platform. This ensures responses come from real individuals rather than anonymous or automated accounts.",
+      icon: Shield,
+      title: "KYC-Verified Contributors",
+      description: "Identity verification using a national ID or passport is required for all contributors to ensure transparency.",
     },
     {
       icon: ClipboardCheck,
-      title: "Application & Screening",
-      description: "Participants apply to surveys and interviews, allowing organizations to review and approve contributors who best match their research criteria.",
+      title: "Application-Based Participation",
+      description: "Contributors apply before joining, filtering out low-quality and opportunistic users early.",
     },
     {
       icon: Star,
@@ -71,9 +71,9 @@ const ForCompanies = () => {
       description: "Contributor performance and response quality are tracked over time. High-performing contributors gain stronger reputation scores and access to more research opportunities.",
     },
     {
-      icon: Fingerprint,
+      icon: Puzzle,
       title: "Proof of Fit",
-      description: "When required, contributors may verify professional, demographic, or contextual information to confirm that they match the research requirements.",
+      description: "Companies can request documented proof such as residency, employment history, or credentials.",
     },
     {
       icon: Bot,
