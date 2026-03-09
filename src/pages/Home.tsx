@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 import { Button } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";
-import { ArrowRight, Users, Building2, Shield, ClipboardCheck, Puzzle } from "lucide-react";
+import { ArrowRight, Users, Building2 } from "lucide-react";
 import heroBackground from "@/assets/hero-background.jpg";
 import alatLogo from "@/assets/company-logos/alat.png";
 import kapitalBankLogo from "@/assets/company-logos/kapital-bank.png";
@@ -13,23 +13,7 @@ import swanLogo from "@/assets/company-logos/swan.png";
 import fourYouCareLogo from "@/assets/company-logos/4youcare.jpg";
 
 const Home = () => {
-  const features = [
-    {
-      icon: Shield,
-      title: "KYC-Verified Contributors",
-      description: "Identity verification using a national ID or passport is required for all contributors to ensure transparency.",
-    },
-    {
-      icon: ClipboardCheck,
-      title: "Application-Based Participation",
-      description: "Contributors apply before joining, filtering out low-quality and opportunistic users early.",
-    },
-    {
-      icon: Puzzle,
-      title: "Proof of Fit",
-      description: "Companies can request documented proof such as residency, employment history, or credentials.",
-    },
-  ];
+
 
   const earlyAdopters = [
     { name: "Alat", logo: alatLogo },
@@ -171,31 +155,7 @@ const Home = () => {
         </div>
       </section>
 
-      {/* Features Section */}
-      <section className="py-20 bg-muted/30">
-        <div className="container">
-          <div className="max-w-3xl mx-auto text-center mb-16">
-            <h2 className="text-3xl md:text-4xl font-heading font-bold text-foreground mb-4">
-              Our Core Strengths
-            </h2>
-            <p className="text-lg text-muted-foreground">
-              What sets Datamız apart from traditional data collection.
-            </p>
-          </div>
 
-          <div className="grid md:grid-cols-3 gap-8 max-w-5xl mx-auto">
-            {features.map((feature) => (
-              <Card key={feature.title} className="p-6 hover:shadow-lg transition-shadow duration-300">
-                <div className="flex items-center justify-center w-12 h-12 rounded-lg bg-primary/10 mb-4">
-                  <feature.icon className="h-6 w-6 text-primary" />
-                </div>
-                <h3 className="text-lg font-semibold mb-2">{feature.title}</h3>
-                <p className="text-sm text-muted-foreground">{feature.description}</p>
-              </Card>
-            ))}
-          </div>
-        </div>
-      </section>
 
       {/* Early Adopters Section */}
       <section className="py-20 bg-background overflow-hidden">
