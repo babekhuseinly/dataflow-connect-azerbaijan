@@ -249,18 +249,17 @@ const ForCompanies = () => {
           </h2>
           <div className="grid md:grid-cols-5 gap-6 max-w-6xl mx-auto">
             {[
-              { step: "1", title: "Sign Up", desc: "Create the company account and provide your research needs." },
-              { step: "2", title: "Define Target", desc: "Set demographic filters to reach the right participants." },
-              { step: "3", title: "Create Survey or Interview", desc: "Build your questionnaire or interview guide." },
-              { step: "4", title: "Set Budget & Launch", desc: "Define participant compensation and launch your research." },
-              { step: "5", title: "Analyze Results", desc: "Access responses, insights, and export data for further analysis." },
+              { step: "1", title: "Create Company Account" },
+              { step: "2", title: "Define Your Target" },
+              { step: "3", title: "Create Survey or Schedule Interview" },
+              { step: "4", title: "Launch & Monitor" },
+              { step: "5", title: "Analyze Results" },
             ].map((item) => (
               <div key={item.step} className="text-center">
                 <div className="w-16 h-16 rounded-full bg-primary text-white flex items-center justify-center mx-auto mb-4 text-2xl font-bold">
                   {item.step}
                 </div>
-                <h3 className="font-semibold mb-1">{item.title}</h3>
-                <p className="text-sm text-muted-foreground">{item.desc}</p>
+                <h3 className="font-semibold">{item.title}</h3>
               </div>
             ))}
           </div>
