@@ -40,18 +40,18 @@ const HowItWorks = () => {
     },
     {
       icon: FileText,
-      title: "Create Survey or Interview",
-      description: "Build your questionnaire or interview guide.",
+      title: "Create Survey or Schedule Interview",
+      description: "Build your questionnaire or schedule a one-to-one interview.",
     },
     {
       icon: CheckCircle,
       title: "Launch & Monitor",
-      description: "Launch your campaign while Datamız manages participant screening and response quality checks.",
+      description: "Launch your campaign and track responses in real time.",
     },
     {
       icon: TrendingUp,
       title: "Analyze Results",
-      description: "Access responses, insights, and export data for further analysis.",
+      description: "Access responses, insights, and export data.",
     },
   ];
 
